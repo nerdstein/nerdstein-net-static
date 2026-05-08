@@ -12,7 +12,7 @@
   --color-code-bg: #1e1e1e;
   --color-code-text: #d4d4d4;
 
-  --font-heading: 'Instrument Serif', Georgia, serif;
+  --font-heading: 'DM Serif Display', Georgia, serif;
   --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
 
@@ -135,22 +135,21 @@ p {
 }
 
 .nav-logo {
-  font-family: var(--font-heading);
-  font-size: 1.25rem;
-  color: var(--color-text);
-  font-style: italic;
+  display: flex;
+  align-items: center;
   text-decoration: none;
-  /* Animated underline */
-  background-image: linear-gradient(currentColor, currentColor);
-  background-size: 0% 1.5px;
-  background-position: 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 0.2s ease;
+  opacity: 1;
+  transition: opacity 0.15s ease;
 }
 
 .nav-logo:hover {
-  color: var(--color-text);
-  background-size: 100% 1.5px;
+  opacity: 0.8;
+}
+
+.nav-logo-img {
+  height: 36px;
+  width: auto;
+  display: block;
 }
 
 .nav-links {
