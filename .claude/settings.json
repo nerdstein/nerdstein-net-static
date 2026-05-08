@@ -1,0 +1,9 @@
+{
+  "skills": [
+    {
+      "name": "blog",
+      "description": "Full blog post workflow: research → author → design → edit → build → push → deploy",
+      "path": ".claude/skills/blog.md"
+    }
+  ]
+}
