@@ -1,0 +1,31 @@
+---
+title: "Impacts of Drupal and Ambitious Digital Experiences"
+date: 2017-11-17
+slug: "impacts-drupal-and-ambitious-digital-experiences"
+tags: ["development", "drupal"]
+description: "This terminology has never sat well with me. I haven't had the time really to articulate why. Allow me to explore my thoughts further."
+draft: false
+---
+
+This terminology has never sat well with me. I haven't had the time really to articulate why. Allow me to explore my thoughts further.
+
+ 
+
+I fully recognize that people need to use the right tool for the right job. But, this philosophy suggests Drupal is not the right tool for less ambitious digital experiences. What about sites for local non profits, web presence for a local restaurant without any digital staff, or local religious organizations that desire a straight forward way to communicate their mission to the world on a shoestring budget. Drupal was built on the backs of people creating websites for causes they supported. I would argue that some of these sites don't need or even care about something ambitious. My philosophy of Drupal and its community is one of inclusiveness. It should be a platform for all, not just the ambitious.
+
+ 
+
+Let's explore this from a business value perspective. Enterprises desire and have the capability to support an ambitious digital experience. Drupal presents a substantial value proposition for companies that can manage the complexity involved. Full time staff may help nurture the ongoing needs of a Drupal system, evolve the application to the organizations needs, create a robust and supporting cloud-based infrastructure, and, to summarize, truly leverage the ambitious nature of Drupal. Many organizations are drastically less ambitious with their goals. How does Drupal serve them? 
+
+ 
+
+Let's explore this from a technology perspective. Many developers would argue, "hey, Drupal ships with all of these cool tools. Why would anyone not want this amazing technology?" Fair point. First, let's acknowledge that these cool tools come at a cost. Drupal is overtly complex to use because it's aim is to provide the tools needed to support ambitious digital experiences. As technologists, we should be familiar with the YAGNI principle (you ain't gonna need it), which more closely aligns with a "small Drupal core" philosophy. This is not something that, as a community, we have agreed upon. Instead, we have a very large core Drupal system, a robust set of features, many dependent PHP and JS libaries, and technology spanning site building, development, theming, devops, security, and so much more. We've tackled ambitious goals. But, the end result is a steep learning curve, a significant amount of technical debt, and a system that requires our stakeholders to be highly informed to be effective. Is this truly needed for simple sites? 
+
+ 
+There are some really obvious examples with Drupal 8 that come to mind. As an example, Composer has added a level of technical complexity. As per best practice, Drupal requires Composer to install it's necessary dependencies to even function. Many legacy hosting platforms maintaining Drupal 6 or 7 sites don't even have support for Composer. Does this mean those who wish to use Drupal need to learn Composer, purchase new advanced hosting offerings, and then potentially perform a migration? Imagine a small business owner making pizzas for $10.00 a pie. He/she already needs to be an expert in accounting, customer service, and much more. For a technologist, adding Drupal into the mix would just be chalked up to "the cost of doing business". Our communal attention is strongly favoring modern innovations and the associated technical outcomes, not the impact to those served. Supporting small business could fall on community members already volunteering this caused-based work in their spare time, but I believe this could further burnout and continues to ask more of members already stretched.
+ 
+ 
+I don't believe we have yet to fully realize the impact of our community preference towards ambition. Adoption rates will likely take a hit over time as older, more accessible versions of Drupal become deprecated and businesses explore what is next. Tools like Wix and SquareSpace present an opportunity that offers a lower technical burden, more reasonable cost point, maintenance, and drastically less complexity. These tools have emphasized end user usability over ambitious digital experience and promoted business models of scale over technical brillance. Maybe this is no longer Drupal's place in the world. Is this something we have come to fully understand? I am not sure we have. Community members often volunteer their time because it's a great cause capable of helping many people when we combine our efforts as a community. Does this philosophy turn them off? I'm not sure our collective motivations were exclusive to that which is considered ambitious. 
+ 
+ 
+Regardless, Drupal 8 is an incredible technology capable of doing great things in the world. To that end, it is certainly in the right position to be selected for projects with great ambitions.

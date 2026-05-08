@@ -1,0 +1,26 @@
+---
+title: "New Beginnings"
+date: 2019-10-12
+slug: "new-beginnings"
+tags: []
+description: "When change comes, it’s often a time of deep reflection for me. Things are rarely as black and white or cut and dry as we would wish things could be."
+draft: false
+---
+
+When change comes, it’s often a time of deep reflection for me. Things are rarely as black and white or cut and dry as we would wish things could be.
+
+ 
+
+About two years ago, I was fortunate to have the opportunity to join Hook 42 to lead engineering efforts. This small but gritty team helped many customers do big things while honoring commitments to Open Source communities, causes like accessibility/gender equality, and participating in positive efforts to make the world better. I was able to grow as a leader, participate in company/engineering strategy, and expand my portfolio into areas like ElasticSearch, Python, and DevOps competencies. I appreciated the ability to represent Hook 42 at events and maintain my connection to the Drupal community. They were kind enough to help support efforts like SimplyTest.me by offering time for outages and moving the development of the new backend forward. I was surrounded by compassionate and talented teammates that were committed to serving both clients and the team.
+
+ 
+
+Over time, I have learned a lot about myself, and my time at a number of professional services companies have helped me to hone my passions. Companies, especially smaller ones, require a constant pipeline of sales and the rising, changing demands of clients that can be hard to meet. My roles within these companies have often been very diverse, ranging from team enablement, development, strategy, people management, sales, evangelism, and more. Many times all in the same day. While I am self-motivated, the amount of context switching and shifting focus can be draining. Some days, it felt harder to be great, honor my priorities, and operate with a proactive perspective necessary to be effective. I rarely shy away from hard things, but I recognized I was getting more uncomfortable with time. My passion and energy were dropping. And this didn’t match my self-identity.
+
+ 
+
+Over the summer, I held some discussions with Acquia about potential openings in their engineering team. Yes, this is the Acquia I previously worked for. I learned a lot about how the company evolved since my time there. I heard about the company they aspire to be. And I met some of the new leadership there. The culture at Acquia continues to evolve and is more closely aligned with what I care about and my strengths. Their relationship with and commitment to the community are growing. I asked hard questions from the challenges I previously had and observations from their position in the community. They did the same, especially curious to see how I’ve grown and evolved since my time there. I left the experience feeling good about where the company is going and the impact it can have both in the world and in the community. I want to step into these challenges and rise to the occasion.
+
+ 
+
+I received an offer I couldn’t pass up. I’ll be leaving Hook 42 and helping lead product engineering efforts at Acquia as a director. I’ll be working on products that I expect will tremendously benefit the community. I look forward to collaborating with some of the best and brightest community members that work there. I’m excited to bring my experience and passions and hope to add value in new and unique ways.
