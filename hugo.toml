@@ -36,7 +36,3 @@ summaryLength = 30
     name = "about"
     url = "/about/"
     weight = 2
-  [[menu.main]]
-    name = "archive"
-    url = "/archive/"
-    weight = 3
