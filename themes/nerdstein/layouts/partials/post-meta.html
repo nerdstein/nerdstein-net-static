@@ -1,0 +1,9 @@
+<div class="post-meta">
+  <span class="post-meta-date">{{ .Date.Format "January 2, 2006" }}</span>
+  <span class="post-meta-sep">·</span>
+  <span class="post-meta-read">{{ .ReadingTime }} min read</span>
+  {{ range .Params.tags }}
+  <span class="post-meta-sep">·</span>
+  <a href="/tags/{{ . | urlize }}/" class="post-meta-tag">#{{ . }}</a>
+  {{ end }}
+</div>

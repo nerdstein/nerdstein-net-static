@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="archive">
+  <header class="archive-header">
+    <h1 class="archive-title">All writing</h1>
+  </header>
+
+  {{ $pages := where .Site.RegularPages "Type" "blog" }}
+
+  {{ range ($pages.ByDate.Reverse).GroupByDate "2006" }}
+  <section class="archive-year">
+    <h2 class="archive-year-label">{{ .Key }}</h2>
+    <ul class="archive-list">
+      {{ range .Pages }}
+      <li class="archive-item">
+        <span class="archive-item-date">{{ .Date.Format "Jan 02" }}</span>
+        <a href="{{ .RelPermalink }}" class="archive-item-title">{{ .Title }}</a>
+        <span class="archive-item-tags">{{ range .Params.tags }}<span class="tag">#{{ . }}</span> {{ end }}</span>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+
+</div>
+{{ end }}

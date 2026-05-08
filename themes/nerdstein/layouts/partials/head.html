@@ -1,0 +1,32 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
+
+{{ with .Description }}
+<meta name="description" content="{{ . }}">
+{{ else }}
+<meta name="description" content="{{ .Site.Params.description }}">
+{{ end }}
+
+<link rel="canonical" href="{{ .Permalink }}">
+
+<!-- Google Fonts: Instrument Serif for headings only -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+<!-- CSS via Hugo asset pipeline -->
+{{ $css := resources.Get "css/main.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+
+<!-- Open Graph -->
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+{{ with .Description }}<meta property="og:description" content="{{ . }}">{{ else }}<meta property="og:description" content="{{ .Site.Params.description }}">{{ end }}
+<meta property="og:site_name" content="{{ .Site.Title }}">
+
+<!-- RSS -->
+{{ range .AlternativeOutputFormats -}}
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink }}" title="{{ $.Site.Title }}">
+{{ end -}}

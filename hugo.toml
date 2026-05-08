@@ -1,0 +1,42 @@
+baseURL = "https://nerdstein.net"
+title = "Nerdstein"
+theme = "nerdstein"
+locale = "en-us"
+enableRobotsTXT = true
+enableEmoji = true
+summaryLength = 30
+
+[markup]
+  [markup.highlight]
+    style = "dracula"
+    lineNos = false
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[params]
+  description = "Adam Bergstein writes about engineering leadership, open source, and whatever he can't stop thinking about."
+  author = "Adam Bergstein"
+  twitter = "https://twitter.com/n3rdstein"
+  linkedin = "https://linkedin.com/in/nerdstein"
+  github = "https://github.com/nerdstein"
+
+[permalinks]
+  blog = "/blog/:slug"
+
+[taxonomies]
+  tag = "tags"
+
+[menu]
+  [[menu.main]]
+    name = "writing"
+    url = "/blog/"
+    weight = 1
+  [[menu.main]]
+    name = "about"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "archive"
+    url = "/archive/"
+    weight = 3
