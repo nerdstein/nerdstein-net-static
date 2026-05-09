@@ -3,7 +3,7 @@ title: "Thinking Out Loud, With Better Tools"
 date: 2026-05-08
 slug: "ai-assisted-blog-workflow"
 tags: ["ai", "reflection", "personal", "engineering", "open-source"]
-description: "How rebuilding this site with AI — and rethinking how I write with it — connects to a lesson I learned badly the first time around: communication is a skill, not a given."
+description: "Rebuilding this site with AI connects back to a lesson I learned the hard way as a new manager: communication is a skill, not a given."
 draft: false
 ---
 

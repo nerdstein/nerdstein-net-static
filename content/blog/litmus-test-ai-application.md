@@ -3,7 +3,7 @@ title: "A litmus test of an AI application"
 date: 2024-10-31
 slug: "litmus-test-ai-application"
 tags: ["development"]
-description: "Two years ago, if you had asked me to build a conversational chatbot that leveraged AI, I would have been discussing hundreds of thousands of dollars to build a"
+description: "A one-hour prototype that cost six cents — what building a conversational AI chatbot taught me about how fast this space has moved."
 draft: false
 ---
 
