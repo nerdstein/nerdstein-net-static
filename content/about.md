@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-I've spent the better part of fifteen years at the intersection of engineering and community — building software, building teams, and trying to figure out what makes technical organizations actually work. Right now I'm a product engineering leader at Siemens, working on complex problems that matter.
+I've spent over twenty-three years at the intersection of engineering and community — building software, building teams, and trying to figure out what makes technical organizations actually work. Right now I'm a product engineering leader at Siemens, working on complex problems that matter.
 
 Before that, I was deep in the Drupal world. I co-created [SimplyTest.me](https://simplytest.me), ran it for nearly a decade, and watched it evolve from a weekend project into something that mattered to the open source community. I've spoken at DrupalCon many times, written extensively about Drupal governance and community conduct, and made lifelong friends through that work. I still care about open source deeply — about the social contracts that hold these projects together, and the ways they break down.
 
