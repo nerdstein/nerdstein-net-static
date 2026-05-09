@@ -3,7 +3,7 @@ title: "Varnish and Drupal"
 date: 2013-01-01
 slug: "varnish-and-drupal"
 tags: ["development", "drupal"]
-description: "Drupal is a complex and robust system."
+description: "How Varnish works as a reverse proxy cache for Drupal, with VCL configuration examples for handling anonymous and authenticated traffic."
 draft: false
 ---
 
@@ -21,8 +21,6 @@ There are many Drupal-specific modules that interface between the two systems. T
 
 As the documentation for the Varnish module specifies, Drupal 7 has the ability to support multiple caching systems simultaneously. This is advantageous for splitting out specific caches Drupal maintains. One common use-case is to use Drupal's default cache for forms (bypassing Varnish). This is easily implemented in Drupal's setting file (after installing the Varnish module) by specifying a few lines of code:
 
- 
-
 ```
 
 *$conf['cache_backends'][] = 'sites/all/modules/varnish/varnish.cache.inc';
@@ -31,13 +29,8 @@ $conf['cache_class_cache_page'] = 'VarnishCache';
 
 $conf['cache_class_cache_form'] = 'DrupalDatabaseCache';*
 ```
- 
 
 As you can see, there are many constructs that enable Drupal and Varnish to play nice in the sandbox. This is a great way to speed up your Drupal site, check it out!
-
- 
-
- 
 
 **References:**
 

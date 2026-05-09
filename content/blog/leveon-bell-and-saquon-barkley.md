@@ -3,17 +3,13 @@ title: "LeVeon Bell and Saquon Barkley"
 date: 2018-03-02
 slug: "leveon-bell-and-saquon-barkley"
 tags: ["sports"]
-description: "I am a huge fan of both Penn State Football and the Pittsburgh Steelers teams. The Steelers have shown favoritism to early-round Big Ten players (e.g."
+description: "Could the Steelers trade LeVeon Bell and draft Saquon Barkley? The case for a bold move that makes more sense than it first appears."
 draft: false
 ---
 
 I am a huge fan of both Penn State Football and the Pittsburgh Steelers teams. The Steelers have shown favoritism to early-round Big Ten players (e.g. Shazier, Cam Heyward, Artie Burns) but they don't seem to routinely select Penn State players based on what I believe to be differences in systems and/or philosophies (Jesse James being one recent counter-example to this). Saquon Barkley is a generational talent that all teams should be vying for. The Steelers recently announced they were putting talks on-hold with LeVeon Bell so their staff could focus on the upcoming draft. Is there a chance the Steelers have eyes for Barkley? Let's look at the not-so-far-fetched reality of Barkley to the Steelers.
 
- 
-
 Let's start by evaluating the circumstances surrounding LeVeon Bell and the Steelers.
-
- 
 
 - NFL backs in the modern day NFL are not known for their longevity. And, this should be expected based on how physical the position is. This may be Bell’s final contract before he begins his decline, if not moves into a backup or retirement.
 
@@ -34,8 +30,6 @@ Let's start by evaluating the circumstances surrounding LeVeon Bell and the Stee
 - LeVeon Bell is highly coveted across the league. He very easily could have been the top free agent in this and last year’s market if the Steelers had not tagged him. The Steelers very likely could receive a haul for one year of LeVeon Bell and first dibs at signing him to the contract he feels he is worth in a sign-and-trade type scenario. In the case of Barkley, if the Steelers are able to secure a top-5 pick or Barkley slips a bit, he could be within reach for the Steelers.
 
 - Bell is a known commodity in the NFL. The league does place a high value in draft picks, however, there is no guarantee draft-eligible players translate their game from college to the pros.
-
- 
 
 For the dreamers like me, let’s assume the Steelers consider replacing LeVeon Bell with Saquon Barkley. What are some relevant circumstances here?
 

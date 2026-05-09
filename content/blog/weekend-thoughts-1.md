@@ -3,7 +3,7 @@ title: "Weekend Thoughts, 7/15/21: Get into details"
 date: 2021-09-01
 slug: "weekend-thoughts-1"
 tags: []
-description: "I am going to start posting blogs for a semi-recurring, weekly post I make on LinkedIn. I've been more active there with shorter, summarized thoughts."
+description: "Big wins are just a collection of small steps — why getting into the weeds of detailed planning is what separates vision from delivery."
 draft: false
 ---
 

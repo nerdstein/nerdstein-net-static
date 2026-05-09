@@ -3,7 +3,7 @@ title: "A DevOps Primer"
 date: 2019-04-29
 slug: "devops-primer"
 tags: ["development", "people"]
-description: "I just closed about 100 browser tabs from an early year activity."
+description: "DevOps is a philosophy, not a product — a primer on the foundational concepts and why they align naturally with agile ways of working."
 draft: false
 ---
 

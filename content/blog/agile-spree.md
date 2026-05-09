@@ -3,7 +3,7 @@ title: "An Agile Spree"
 date: 2013-01-01
 slug: "agile-spree"
 tags: ["development", "people"]
-description: "At the heart of Agile is flexibility. This is designed into sprints that are intended to account for changes rolled into subsequent sprints."
+description: "Introducing the \"agile spree\" — a structured burst of discovery, review, and bug-fixing to protect quality inside a sprint."
 draft: false
 ---
 
@@ -33,18 +33,12 @@ After the discovery, the backlog decision makers should sit down to reconcile. R
 
 The spree's backlog should be assigned to project team members to complete the identified tasks.
 
- 
-
 ---
-
- 
 
 I personally believe having a combination of sprints and sprees limit project risks by identifying issues close to when they are introduced to a project. Some would argue that a spree would add time and cost on a project. While I agree, I believe that sprees reduces the potential for adding unknown costs into a project while the project is happening. The "change order" conversation is always awkward. I would argue that it's better you can tell your client you have quality control procedures already built into the contract.
 
 Keep in mind, the focus is on quality. This quality can be addressed in a planned manner with a spree as opposed to being forced. Consider two different scenarios: one in which you dedicate time to quality improvements and one in which quality issues come up organically in demonstrations and no time is allocated to address them. The latter adds significant risk, usually adds stress to developers, and then needs to be squeezed into a future sprint that may or may not be at full capacity already.  
 
 Like any good agile recipe, a spree should be structured to meet your needs. The frequency and duration of the spree should vary depending on the project complexity. And, this is intended to be agile, don't hesitate to adjust the frequency and/or duration to better meet the needs of the project.
-
- 
 
 Consider adding a spree and crowdsouring your quality control on a project!

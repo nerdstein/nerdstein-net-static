@@ -9,8 +9,6 @@ draft: false
 
 Site updates in Drupal are one of the most critical, proactive things needed to eliminate vulnerabilities on your site. While the open source community strives to make these updates smooth, there are no guarantees there won't be issues for your specific site based on how you've extended your Drupal instance. This is because each site may have it's own custom code, it may have it's own combination of contributed modules with unique interactions, and it may have it's own visual theme. The key point is that it's not a safe assumption that site updates meet all use cases. Most module maintainers are good about following module version conventions intended to help shed light on if an update could break existing feature or API parity. But, case in point, site updates should be handled with care. 
 
- 
-
 ## What are some best practices?
 
 - You can reduce risk and downtime by having the right tools on both your local system and your production system. If your not using Drush to afford scripting, Drush Aliases to manage local and remote connectivity, or Git to version code changes, you are missing fundamental tools that are widely regarded as best practice. Larger enterprise projects emphasize automated testing for your own user stories, which can also be scripted or integrated with a broader continuous integration solution (Jenkins/TravisCI, etc).
@@ -26,8 +24,6 @@ Site updates in Drupal are one of the most critical, proactive things needed to 
 - Pull your content directly from production. Get **one** database archive when you start your local site upgrade process. This can be run by using *drush @PRODUCTION sql-dump > /scripts/SITE-DB-TIMESTAMP.sql*, in which the capital letters represent tokens for your use case. Do not repeatedly use *drush sql-sync*, as this wastes time and burdens the production server unnecessarily. You may be inclined to run this consecutively if you run into issues and want to re-test a production database copy. There likely will not be that many database changes between syncs, so I have found the sql-dump to be adequate and can be iterated easily with a *drush @LOCAL sql-drop* and a subsequent *drush @LOCAL sql-cli < /scripts/SITE-DB-TIMESTAMP.sql*.
 
 - Restore production sites if there happens to be an issue that wasn't present on your local. Copy the code back over and restore the database backup by running *drush @LOCAL sql-cli < /scripts/SITE-DB-TIMESTAMP.sql*. The steps you have taken should make this a rare instance, since you are working locally.
-
- 
 
 ## What are some practices you should avoid?
 

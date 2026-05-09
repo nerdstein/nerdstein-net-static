@@ -9,8 +9,6 @@ draft: false
 
 We are about to start another quarter of the Drupal Coffee Exchange. Personally this has been a lot of fun to see this start from humble beginnings and an off-the-cuff idea posted to Twitter to now have a growing membership and have been running for over a year now. We now have international participation and are looking to expand that. For me, it’s yet another reminder our community goes well-beyond the commits. Now we have a way for community members to stay caffeinated and share our favorite coffees between community enthusiasts. It’s unique, it’s fun, and it’s become a creative and complementary way to participate in our community.
 
- 
-
 I wanted to share some recent developments that exemplify that energy.
 
 ## DrupalCon introduced an in-person exchange

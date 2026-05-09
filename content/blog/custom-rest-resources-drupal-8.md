@@ -3,37 +3,23 @@ title: "Custom REST Resources in Drupal 8"
 date: 2018-12-16
 slug: "custom-rest-resources-drupal-8"
 tags: ["site-building", "development", "drupal"]
-description: "Drupal 8 is a great platform for storing structured data and exposing web service endpoints."
+description: "A step-by-step guide to building a custom REST endpoint in Drupal 8, illustrated with a decidedly important Arnold Schwarzenegger example."
 draft: false
 ---
 
 # Introduction
 
- 
-
 Drupal 8 is a great platform for storing structured data and exposing web service endpoints. This offers Drupal a competitive advantage when creating a decoupled application or building Drupal as part of a larger enterprise of systems. Core offers many complementary out-of-the-box features to publish web services and configure them in different ways. This includes roles/permissions, Rest Web Services, Serialization, Views, and more.
-
- 
 
 Since Drupal is so robust out of the box, it often minimizes the need for custom development. But, Drupal’s framework has support for any customized needs. The following article describes how to create a custom REST endpoint in Drupal 8, as we share how to conditionally return a quote from a provided Arnold Schwarzenegger movie.
 
 # Development
 
- 
-
 Assuming you [have a custom module already created](https://www.drupal.org/docs/8/creating-custom-modules) and enabled, we can leverage the native autoloading features to register a new plugin class for a custom REST resource.
-
- 
 
 Place a new MyCustomResource.php class in your module’s src/Plugin/rest/resource directory. Create any missing directories as needed. The REST resource will automatically get discovered after [clearing the cache](https://www.drupal.org/docs/user_guide/en/prevent-cache-clear.html).  
 
- 
-
 Example 1: modules/my_custom_module/src/Plugin/rest/resource/[MyCustomResource.php](https://gist.github.com/nerdstein/9f5c71e40e6d073890cba9ea638d895b)
-
- 
-
- 
 
 This example demonstrates an exposed GET endpoint found at the path /api/custom/arnold. Let’s walk through the code to get an understanding.
 
@@ -69,13 +55,9 @@ Line 124 demonstrates the response triggered by returning a ResourceResponse obj
 
 Once REST resources are developed, they still require configuration. Start by downloading and enabling the [REST UI module](https://www.drupal.org/project/restui) to manage Drupal’s REST endpoints at /admin/config/services/rest.  You should see your new REST resource defined in the list.
 
- 
-
 ![](/sites/default/files/uploaded/custom-rest-resource-1.png)
 
 The REST resource endpoint will be activated once enabled and configured. Configuration includes selection of the exposed methods (from those available from your class), the authentication (select cookie to use Drupal’s default authentication tied to it’s login), and the serialization formats (JSON is commonly used for tools like React and Vue).
-
- 
 
 Finally, you need to define who is able to access the endpoint.
 
@@ -89,21 +71,11 @@ Finally, you need to define who is able to access the endpoint.
 
 The previous example outlined the basics of Drupal’s REST resource API but did not describe how to leverage other Drupal features. I’ve created a second example that is more relevant for retrieving Drupal-sponsored content.
 
- 
-
 Example 2: modules/my_custom_module/src/Plugin/rest/resource/[MyCustomResourceRandom.php](https://gist.github.com/nerdstein/417c8ef105205d8159386a26c771ee9b)
-
- 
-
- 
 
 The updated example assumes the use of an “arnold_quotes” content type, which leverages the “title” field for the quote and has a boolean “bonus” field to tag specific quotes as a bonus feature. It also assumes the use of a custom permission for accessing bonus quotes, which can be assigned to a user by role.
 
- 
-
 The example leverages an [entity query](https://api.drupal.org/api/drupal/core!lib!Drupal.php/function/Drupal%3A%3AentityQuery/8.2.x) to conditionally load quotes to first filter by a movie parameter and bonus products, if the user has the correct permission. A random returned node is loaded and the quote is returned through the response.
-
- 
 
 Example 2 better exemplifies a use case for a custom REST resource in Drupal 8 and potential opportunities to interact with the other Drupal subsystems.
 
@@ -111,11 +83,7 @@ Example 2 better exemplifies a use case for a custom REST resource in Drupal 8 a
 
 Intuitively, you may go to a web browser to test your endpoint. But, web service endpoints are configured to only accept requests in specific serialized formats and methods. A standard web browser request likely won’t create a request that matches your endpoint settings, but Drupal will still return return a result that likely prints an error and is in the serialized format you selected (e.g. JSON).
 
- 
-
 The easiest way to test your endpoint is through a tool like [Postman](https://www.getpostman.com/). After downloading, configure a request to your endpoint.
-
- 
 
 - Specify the method (e.g. GET)
 
@@ -133,15 +101,9 @@ The easiest way to test your endpoint is through a tool like [Postman](https://w
 
 - Click “Send” to test the request
 
- 
-
 ![](/sites/default/files/uploaded/custom-rest-resource-2.png)
 
- 
-
 ![](/sites/default/files/uploaded/custom-rest-resource-3.png)
-
- 
 
 # Further Reading
 

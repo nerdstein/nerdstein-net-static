@@ -3,21 +3,15 @@ title: "Running Pro-Tips"
 date: 2013-01-01
 slug: "running-pro-tips"
 tags: []
-description: "I have been trying to be more balanced. While I’m still a bit inconsistent, I’ve picked up running for my physical and mental well-being."
+description: "Practical tips I’ve picked up from a year of running — for stress management, consistency, and getting past the early learning curve."
 draft: false
 ---
 
 I have been trying to be more balanced. While I’m still a bit inconsistent, I’ve picked up running for my physical and mental well-being. It’s been over a year now, as I ran the local 4th of July race for the second consecutive year (non-competitively). I was able to run year round after purchasing a treadmill around New Years and avoiding runs in the winter due to asthma and cold temps which would kill my breathing.
 
- 
-
 Now, I try to run once every two-to-three days and I often do at least one longer run on weekends. It really helps me manage stress personally and professionally. As of now, my typical run is between three and four miles, but my weekend run(s) are often between five and six. I recently was able to do a ten mile run on a trail and was incredibly pleased, yet totally exhausted.
 
- 
-
 I enjoy it because it’s a great way to disconnect from the world and relax. It’s nice to have a hobby outside of sitting in front of a screen. I love running outdoors and getting some fresh air. I continue to gradually improve my running (pace and distance) while fully noting that many of my friends run more and better than me. In reality, I’m doing this for me and I’m glad I’m making this a priority for my health. It has paid off.
-
- 
 
 While technically you only need your legs and a pair of shoes (actually, I’ve seen some people run races barefoot), I wanted to share my running gear. I have several things that have helped me get into this. I also strongly recommend running with friends or having a friend or two to motivate you when you may want to give up on it.
 

@@ -3,15 +3,13 @@ title: "Common DrupalVM Use"
 date: 2016-02-29
 slug: "common-drupalvm-use"
 tags: ["development", "drupal"]
-description: "I long struggled with how to effectively do local development in Drupal."
+description: "How I use and configure DrupalVM for local Drupal development, and why it finally solved the local environment problem for me."
 draft: false
 ---
 
 I long struggled with how to effectively do local development in Drupal. Few would argue the merits of doing local development over working directly on a production system. While the problem seems straightforward, nothing seemed to work quite right. It took me quite a while to land on DrupalVM. 
 
 I'd like to explain how I landed here and some of the ways I use/configure DrupalVM to support my needs.
-
- 
 
 ## Requirements
 
@@ -31,8 +29,6 @@ This whole experiment made me think about what criteria I was evaluating these a
 
 - **Unassuming development workflow** - Every team and project has adopted their own workflow based on team preferences and technical competency. I don't want a tool that only supports workflows defined by hosting platforms, undocumented continuous integration solutions, or poor practices carried over between vendors. I have seen a host of different approaches from make-file driven solutions, repository based workflows, use of SSH/SFTP/SCP, implementations with Drush aliases, etc. I may have preferences, but ideally, my local sandbox can support any or all of these seamlessly.
 
- 
-
 ## Previous Attempts
 
 My exploration is not without a comparison and in-depth use of many other tools that could, to a degree, meet these objectives.
@@ -44,8 +40,6 @@ My exploration is not without a comparison and in-depth use of many other tools 
 - **Acquia Dev Desktop** - This lacked full stack even for their own Acquia Cloud platform, since it's missing Varnish, SOLR, Memcache, and other utilities. It did set up Drush and Git, because Acquia Cloud basically requires it to do anything. It also is not a virtual machine, relying on installing software on your host machine.
 
 - **MAMP and variants** - Same exact architecture as Acquia Dev Desktop but no Drush, no Git, and some assumptions on tools, like PHPMyAdmin.
-
- 
 
 ## Why DrupalVM?
 
@@ -64,8 +58,6 @@ This may read like a sales pitch, but I think people need a clear view on why it
 - It's an evolving tool and actively maintained. The author, Jeff Geerling (Geerlingguy) responds in a timely fashion to both help requests and potential issues. It continues to evolve through community use and thoughtful discussion.
 
 - The balance between the robust toolset, sync'd drives, and configuration layer make it desirable for practically any use case I've run into. It is not prescriptive whatsoever.
-
- 
 
 ## Basic Workflow
 
@@ -92,8 +84,6 @@ This may read like a sales pitch, but I think people need a clear view on why it
 - When you need to switch, run *vagrant suspend* to pause the VM from the *box* directory
 
 - If you are done with the VM or want to get a fresh build, run *vagrant destroy -f* from the box directory
-
- 
 
 ## Learned best practices of using DrupalVM
 
@@ -122,8 +112,6 @@ There are some specific ways I use DrupalVM based on my experience worth sharing
 - Bring over project-specific Drush aliases into the VM. This can be incredibly useful to get databases and files from other servers for existing sites.
 
 - Be careful if you wish to version your DrupalVM configuration for a distributed team. Leverage *.gitignore* for the majority of the *box* subdirectory contents excluding config.yml, the make file, and your requirements.txt file. Leave explicit instructions in the project's readme for installing the VM and note any project-specific implementation steps.
-
- 
 
 ## Summary
 

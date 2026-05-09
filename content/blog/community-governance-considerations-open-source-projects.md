@@ -3,44 +3,30 @@ title: "Community Governance Considerations of Open Source Projects"
 date: 2017-06-05
 slug: "community-governance-considerations-open-source-projects"
 tags: ["drupal", "people"]
-description: "DrupalCon was a great way to connect with the community and gauge the pulse from recent events involving Crell."
+description: "What open source communities like Apache, Python, and Node.js can teach Drupal about governance structures and accountability."
 draft: false
 ---
 
 DrupalCon was a great way to connect with the community and gauge the pulse from recent events involving Crell. After writing blog posts, I engaged with many people to share thoughts and hear perspectives. One common question that came up: what do other communities do for governance?
 
- 
-
 This motivated me to do some research of my own. I wanted to be better informed in discussions to know what other communities are doing in an effort to identify where our communal gaps might be. I am a firm believer that the Drupal community doesn’t need to “reinvent the wheel” or think we are “special snowflakes”. There are countless other projects out there dealing with the same problem space. I explored online documentation for other projects and open source communities. I also found research and blog posts on governance topics for communities. I’ve included all of my references below. This blog post is a simple effort to summarize and share what I learned about community governance.
-
- 
 
 ## Premise
 
 There is a great deal of diversity in community governance of Open Source Software (OSS) projects. There are various considerations unique to each project and subsequently each project leverages different governance concepts and structures. While the use of governance structures may differ, there is a substantial amount of concepts shared among them. As such, my emphasis is to highlight a set of objectives/motivations and an associated set of governance concepts communities have hand-selected. Please note, I did not research every open source project and the ideas presented are likely not exhaustive.
 
- 
-
 I extracted a summary quote to provide a satisfactory overview defining the need for governance in line with my findings:
-
- 
 
 > "OSS is best understood neither as primarily a technical development or social process   perspective, but instead as an inherent network of interacting socio­technical processes,   where its technical and social processes are intertwined, co­dependent, co­evolving, and thus inseparable in performance "
 > Chris Jensen and Walt Scacchi, “Governance in Open Source Software Development Projects: A Comparative MultiLevel Analysis”, OSS10
 
- 
-
 Effective governance must understand the diverse technical and social needs of the community to effectively serve members. Members of the community need governance to ensure the communities’ values are upheld by other members. Governance ensures fairness and helps the community establish and maintain an identity. This identity must be made clear so community members, often volunteers, feel confident they are participating in something that aligns with their value system. The need for community governance shares a similar argument presented by [The Tyranny of Structureless](http://www.jofreeman.com/joreen/tyranny.htm) written by Jo Freeman.
-
- 
 
 Community governance is not one-size-fits-all between communities. There are many factors and motivations. Community governance can change based on the size of the community, financial support, application of free and open source ideologies, desired leadership, and much more. Community governance influences include operational management, health and sustainability, distribution of both centralized and decentralized decision making, and separation of duties.
 
 ## Community Governance Objectives/Motivations
 
 The following list represents a set of objectives and motivations that seemed present in one or more of the communities I researched.   
-
- 
 
 - Shared Purpose - As a community, there needs to be a shared purpose that is the foundation for all community governance activities. This shared purpose is often a function of serving the community.
 
@@ -80,8 +66,6 @@ Boards serve communities in advisory capacities. While a foundation helps steer 
 
 Communities clarify the different ways people can be involved. I’ve summarized roles I found:
 
- 
-
 - BDFL - A type of community leader which often helps define overall communal direction.
 
 - Board member - Council member to serve in broad consultation.
@@ -101,8 +85,6 @@ Communities clarify the different ways people can be involved. I’ve summarized
 ### Governance Documentation
 
 Open Source community participants often seek alignment with their value systems. Communities leverage documentation to help communicate the identity of the community. This is represented in many different ways:
-
- 
 
 - Mission statement - Captures the overall goal and purpose of the community.
 
@@ -126,8 +108,6 @@ Open Source community participants often seek alignment with their value systems
 
 Open Source projects rely on various activities and tools from community members to be vibrant. Engagement can be performed in many different ways:
 
- 
-
 - Code - Code contributions are one of the primary ways technical people give back to communities, which are often measured in commits.
 
 - Open meetings - Groups and boards hold open meetings that often allow community members to be informed and participate.
@@ -146,8 +126,6 @@ Open Source projects rely on various activities and tools from community members
 
 - Direct Messaging channels - Tools like Slack, IRC, and more provide the ability to set up both generic and specific channels (groups) and one-on-one messaging that allow for community members to communicate more directly.
 
- 
-
 ## What About Drupal?
 
 As many of you know, I am a member of the Drupal open source community. As I noted, my intent of this blog post is to see what other communities do for community governance. I have intentionally left out Drupal-specific details such that others can form their own opinions. My next step will be a follow-up blog post that captures my observations on current Drupal governance with respect to my research.  
@@ -155,8 +133,6 @@ As many of you know, I am a member of the Drupal open source community. As I not
 ## Resources
 
 Please note that many of the resources identified below have auxiliary links that further clarify the concepts I mention. I have captured a subset of these links for pages that I found particularly informative.
-
- 
 
 - [http://oss-watch.ac.uk/resources/governancemodels](http://oss-watch.ac.uk/resources/governancemodels)
 

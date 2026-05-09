@@ -3,13 +3,11 @@ title: "2015 Steelers Draft Predictions"
 date: 2015-04-21
 slug: "2015-steelers-draft-predictions"
 tags: ["sports"]
-description: "I'll try to stay focused on the picks in the first two rounds, as it's very difficult for a novice like me to be an expert after that."
+description: "My picks for the Steelers' first two rounds of the 2015 NFL Draft, with analysis on what Pittsburgh will and won't do."
 draft: false
 ---
 
 I'll try to stay focused on the picks in the first two rounds, as it's very difficult for a novice like me to be an expert after that.
-
- 
 
 **Background**
 
@@ -21,22 +19,17 @@ There are two philosophies the Steelers never deviate from. They certainly will 
 
 The following picks represent my best guess at where the Steelers will go. I'll also note other players I believe they will consider.
 
- 
-
 **Round 1**
 
 Nate Orchard - OLB from Utah
 
 Leadership skills, strong and has decent size. A slight chip on his shoulder coming from a smaller school will prove to be a high motivating factor. Valued highly for his character and not just on-field skills. The Steelers certainly value the individual just as much as outright talent. The pick represents a lesson learned from the Jarvis Jones selection (speed back but seems to struggle to put on the weight needed to compete at the NFL). 
- 
 
 Other picks I considered:
 
 - Bud Dupree - OLB - Kentucky. Shares much of the same strengths as Orchard, but widely regarded as a high-end prospect. He will likely not be available at pick 22.
 
 - Landon Collins - S - Alabama. There is a definite chance he will be available at pick 22. I gave a slight edge to Orchard since Pittsburgh does not value the secondary like their front 7. I do not believe the Steelers deem him as "special". Former Alabama secondary players have struggled to equate to high end NFL talent (see: Mark Barron, Javier Arenas, Dre Kirkpatrick, Dee Milliner). It's easier to evaluate a talent when they are not a part of every number one recruiting class.
-
- 
 
 **Round 2**
 
@@ -46,15 +39,11 @@ Arguably the best TE prospect in the draft, but in a year that the two TE system
 
 Other picks I considered:
 
- 
-
 - Byron Jones - CB - UConn. Not getting the flash of Trae Waynes or Marcus Peters, but a first/second round talent that showed up at the NFL Combine. He has good instincts and size that will evolve into a solid member of the secondary after some grooming.
 
 - Marcus Peters - CB - Washington. With character red flags, there is a chance he drops this far. I'm not sure the Steelers can turn away with such a glaring need if he drops to them in round 2.
 
 - Shaq Thompson - LB - Washington. Seems to have fallen off of the media radar post-combine. He seems to be able to resemble a front-7 Troy Polamalu. Major position flexibility and seems to always be around the ball at all times. I highly doubt he will slip this far, but the Steelers would not turn away from the talent.
-
- 
 
 **Later Rounds Watch**
 

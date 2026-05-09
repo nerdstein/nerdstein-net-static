@@ -3,7 +3,7 @@ title: "Lessons Learned: Drupal 8 Module Porting"
 date: 2013-01-01
 slug: "lessons-learned-drupal-8-module-porting"
 tags: []
-description: "Drupal 8 has opened up new possibilities for existing modules. In this session, I will walk through new architectural concepts for Drupal 8."
+description: "Key lessons from porting Drupal modules to version 8, including the architectural shifts that catch most contributors off guard."
 draft: false
 ---
 

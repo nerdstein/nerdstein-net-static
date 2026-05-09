@@ -13,8 +13,6 @@ Two years ago, if you had asked me to build a conversational chatbot that levera
 
 I started with a simple Google search on conversational AI chatbots. This led me to Python, as all of the examples I found seemed to leverage it. Most examples leveraged OpenAI for the core of the model connectivity, model serving, microservices, and available libraries. Converting the speech to text and parsing the results to speech leveraged various tools like Google Cloud's text2speech and even more OpenAI services. To summarize and simplify: I focused on a Python based application that leveraged only OpenAI's services. 
 
- 
-
 ## Key findings
 
 I was surprised how much I enjoyed working on this. I don't code very often and I thought I was entering into a difficult task upfront. I was wrong.
@@ -37,10 +35,6 @@ I was surprised how much I enjoyed working on this. I don't code very often and 
 
 Given I did not see one working example, the code may be helpful. It also may rot within minutes of posting this :)
 
- 
-
- 
-
 ```
 
 from openai import OpenAI
@@ -52,7 +46,6 @@ from pathlib import Path
 import warnings
 
 ```
- 
 
 ```
 
@@ -96,7 +89,6 @@ def synthesize_speech(text, output_file_path):
         input=text
     )
     response.stream_to_file(output_file_path)
-
 
 # settings
 fs = 4800  # Sample rate

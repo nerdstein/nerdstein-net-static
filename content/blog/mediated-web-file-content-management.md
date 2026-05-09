@@ -3,13 +3,11 @@ title: "Mediated web file content management"
 date: 2013-01-01
 slug: "mediated-web-file-content-management"
 tags: ["development", "drupal"]
-description: "This is a topic I have grown all too familiar with, as this is my thesis topic for my master's degree."
+description: "An introduction to mediated web file content management — the patterns and challenges behind how web systems handle user-uploaded files."
 draft: false
 ---
 
 This is a topic I have grown all too familiar with, as this is my thesis topic for my master's degree. I thought I'd share some basics to set the stage in this area of work.
-
- 
 
 **Background**
 
@@ -19,13 +17,9 @@ The key concept is around the notion of sharing. What is appropriate file sharin
 
 It's not uncommon for a web system to use an unmediated file system. CDNs and standard OS file systems bypass application level mediation for files. If someone knows the URL to access a file, it will be served up to any user regardless of file sharing policies. This is common practice. So, how do we perform mediation on these files?
 
- 
-
 **Previous Work**
 
 Some applications leverage token-based URLs in which a token provides a temporary capability to access the file. While this is fine, it doesn't necessarily respect the access control policy of the application. And, what happens if someone intercepts the capability?
-
- 
 
 **Design Challenges**
 
@@ -34,8 +28,6 @@ There is a missing level of semantics. Standard file systems are not aware of ap
 Furthermore, application access control policies are not static. The classic example is when an employee is hired or leaves an organization. As such, the system needs to grant or restrict access appropriately. Any time the application adds/removes users or changes user-based permissions, the file mediation would need to be updated as well.
 
 Another challenge is the process workflow of web requests. It's a series of handoffs. A request meets the OS with the web server port, which is passed off to the web server. The web server name resolution kicks in for the path of the request, which is passed off to either the specified server side script or the file asset directly on the file system. The only branch that performs mediation is the server-side script, typically during the application's name resolution bootstrapping process where the path is associated to some application-level resource. File assets are never mediated, as the application is never invoked.
-
- 
 
 **Mediation Considerations**
 
@@ -49,8 +41,6 @@ How - One must consider how to solve two problems: applying application-level se
 
 When -  It's clear that mediation needs to occur when a file access occurs. The more complex part is identifying when to apply changes to the access control semantics. My advice is to take a look at the application framework itself. Application hooks may enable some level of integration based on events in the application. Such examples that affect access control would be events for user management, permission changes, or file management. 
 
- 
-
 **Challenges**
 
 Blocking access to files (via a direct URL to the file) poses an issue in which the application must be responsible for rendering a file. This is no trivial task.
@@ -58,8 +48,6 @@ Blocking access to files (via a direct URL to the file) poses an issue in which 
 This also presents a usability concern. File rendering may change or alter the URL in which a file must be accessed (e.g. render-file?file=3). This URL link represents a radically different path than that in which the original filesystem-based URL exists. This can be solved by leaving files on the filesystem for file browsing and altering the HTACCESS approach to perform a redirect to a mediation script respecting the original file path. 
 
 Ongoing maintenance of the application semantics is also tough. Any changes to the access control policy may require a full scan of the existing file content to ensure the policy is effectively performed. This advocates for more of a database-centric approach within the application that can run updates based on existing conditions contextually aware of the change to the application access control policy. 
-
- 
 
 **Feedback Welcomed**
 

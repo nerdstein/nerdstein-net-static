@@ -3,7 +3,7 @@ title: "It's not you, it's me"
 date: 2013-01-01
 slug: "its-not-you-its-me"
 tags: ["development", "people"]
-description: "Bad projects are toxic."
+description: "What makes a project go sideways is rarely technical — a look at the human and process failures that turn engagements toxic."
 draft: false
 ---
 

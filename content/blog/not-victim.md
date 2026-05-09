@@ -3,25 +3,19 @@ title: "Not A Victim"
 date: 2017-03-06
 slug: "not-victim"
 tags: []
-description: "The Trump team has been saying they are victims from attacks of those on the left that don't want them in office."
+description: "On the Trump administration's use of victimhood as a political deflection strategy, and why accountability requires more than belief."
 draft: false
 ---
 
-The Trump team has been saying they are victims from attacks of those on the left that don't want them in office. While it is fair to say that those in the left indeed don't want them in office, this is a direct response to their policies. There has been a growing lack of confidence founded on the wrecklessness of the administration's words and actions. In response to the criticism they have received, members of the Trump team are claiming to be victims.
+*Written in March 2017 as a personal reaction to the early weeks of the Trump administration.*
 
- 
+The Trump team has been saying they are victims from attacks of those on the left that don't want them in office. While it is fair to say that those in the left indeed don't want them in office, this is a direct response to their policies. There has been a growing lack of confidence founded on the wrecklessness of the administration's words and actions. In response to the criticism they have received, members of the Trump team are claiming to be victims.
 
 This is one of many strategies the administration has used in deflection. An alternative strategy would be to engage with the public in conversation and to relay concerns with facts or research that supports their stance. "The truth shall set you free." But, the Trump team refuses to provide substance to their claims and others have struggled to validate the claims. Representatives of the administration saying nothing more than "this is what the president believes" which leaves room to instill doubt. For a man serving in the highest office, **the consequence of acting on belief over fact can be severe**. With the tools he has at his fingertips, he could be the most informed person on the planet. For a man that has access to more intelligence, research, consultants, and strategists than any other individual in our nation, many of us fear the consequences of an individual widely reported to be glued to Breitbart, Twitter, and right winged media outlets that, arguably, bend truth or spread conspiracy theories. It is hard for many to excuse this bias.
 
- 
-
 Americans need a level of transparency from their leaders to build trust. It is not enough to say there are "alternate facts" without supporting truth. These deflections used by this administration continues to erode trust. Trump continues to avoid supporting facts and continues to throw out bold claims. In past administrations, the media and other entities in the government help substantiate the motivations of political agendas. Instead, the Trump policies have been met with confusion. More things seem to come up each day followed up by more questions. Recall Trump's claims around Obama's birthplace, a lack of association with Russia, making up various terror attacks, and now Obama wiretapping. He still maintains an unrelenting stance on not releasing taxes. Members of his administration had well-documented controversies from Sessions lying under oath and Flynn resigning after lying to other members of the administration. Ironically, Trump has allowed his staff to skip ethics training even after these events and after nominating many political outsiders that could benefit from understanding how the government runs differently than private industry. While some may be inclined to believe the president, the amount of questions and the lack of substantiated claims are troubling. Many in the nation have been seeking clarity and demanding accountability for an individual serving in public office. Efforts to promote integrity are constantly dismissed.
 
- 
-
 I want to take some time to throw out some of my own unsubstantiated questions based on doubts I have:
-
- 
 
 - Why hasn't Trump been upfront with citizens?
 
@@ -31,24 +25,13 @@ I want to take some time to throw out some of my own unsubstantiated questions b
 
 - Is Trump distracting the public attention away from something else that might concern the public?
 
- 
-
- 
-
 We may never get answers to these questions because there is no accountability for truth in this administration. Instead of being accountable to claims he makes, the Trump administration blames others as yet another tactic of avoidance. Trump blames leakers that disclose the chaos in his administration. He demanded an investigation on Obama after unfounded claims of wiretapping. Instead of recognizing that the media is seeking truth, he labels media outlets as the enemy. It is like calling out someone who's hand was caught in the cookie jar and they blame the baker for baking a cookie. The media can't report things that are fake - they lose all credibility and anything else they would report would be questioned. Trump knows this and is still pressuring them to conform to his message. Meanwhile, there is still no clarity, just avoidance. We are left with nothing but Trump's beliefs which still seem to vary greatly from the facts. 
-
- 
 
 Defending these strategies would also seem to be a significant challenge. Trump sends his press secretary and others to meet with the media, rarely offering opportunities for people to hear from him directly. His team has repeatedly claimed to be victims of attacks from the left, the media, and more. This is misleading; **these individuals are not victims**. Members of Trump's administration are being paid to sell America on Trump's beliefs and these were jobs these individuals consciously signed up for. What is clear is that his avoidance of truth puts members of his administration in a very difficult position. His messengers are absolutely in a tough spot - **they need to sell belief without fact**. There has certainly been a substantial amount of concern thrown at these paid messengers. This still doesn't make them victims. To some, the amount of criticism might be a sign that there is a problem. But, our nation remains in purgatory between belief and fact and rightfully questions that which may not be defensible. 
 
- 
-
 Those in the administration are now indistinguishably linked to Trump and this avoidance of truth that is wearing on the populus. Political careers were designed for shorter stints of service from a broad number of citizens. But, over time, politicians have come to rely on it for their livelihood. Many in Trump's administration have left their businesses to join Trump's efforts or have built their careers in politics. There may be growing fears that their association to Trump is toxic and may hinder their future political aspirations based on mounting citizen concern. Four years of Trump's continued questionable behaviors would certainly provide challenge to even the most senior and qualified political candidates. The same can be said for those in the Republican Party torn by these tactics and concerned for any perceived fragmentation in their party. Those linked to Trump may have no choice but to hang on for the ride regardless of their personal or ethical views. It may be sobering to imagine what their political prospects are in four years and, subsequently, the impact this could have on their livelihood. Such fears can motivate people to look past the ethical or moral dillema they might otherwise face in a more stable political landscape.   
-
- 
 
 Sadly some citizens in our nation seem comfortable with this. It is hard to understand why people are comfortable when they are uninformed. They may balk at these concerns as angry leftist banter - and that is fine. Maybe these citizens believe their livelihood is bound to Trump (coal miners, factory workers, etc). But, there is greater risk to all citizens. Lives are at stake if our president is uninformed and uses our defense inappropriately. Our economy is widely dependent on other countries in the world and Trump's fierce nationalism may make other countries cautious. What makes me just as uncomfortable is that so many people have been marginalized by the actions of this administration that no one should be comfortable with. Women, Native Americans (Dakota Access Pipeline), Muslims, transgenders, Jews, and more find themselves currently marginalized. Many more citizens fear they are next by threats to Obamacare, the next Muslim ban, educational policies, budget cuts to everything non-military, and more. Current supporters may lack empathy for those currently affected by Trump policies. That is, until they are marginalized and at that moment, the desire for truth and transparency would become ever so clear.   
 
- 
-
 As citizens, we need to continue to hold elected officials accountable for that which we believe misrepresents our great nation. We have a right to be informed and to pursue truth for those we elect. We cannot buy into tactics aimed at diverting our attention away from that which limits the accountability and responsibility of these people. Trump and his team signed up for this and made promises to citizens of our nation. None of these people are victims, they just can't answer for calls of truth and integrity when they are void of it.
+

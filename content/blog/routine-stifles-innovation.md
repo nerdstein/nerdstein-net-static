@@ -3,37 +3,25 @@ title: "Routine stifles innovation"
 date: 2014-08-31
 slug: "routine-stifles-innovation"
 tags: ["development", "drupal", "people"]
-description: "I was recently asked about what separates my company from others I have worked in the past."
+description: "Organizational routine is the quiet killer of innovation — and companies that haven't ossified yet have a real advantage they should protect."
 draft: false
 ---
 
 I was recently asked about what separates my company from others I have worked in the past. What immediately came to mind was the relationship with my team, the work we do, and the sheer talent. Those elements alone still make me get up in the morning. But, over a cold beer, something else struck with me. **My company has no routine** and I love it. 
 
- 
-
 ## Let me Google that for you
 
 Yes, this may set you back initially. Routine typically has to do with schedules or habits. But, what I am referring to is very much about our culture. We're a newer company that is still applying polish to our offerings. Since we're still relatively new, there is no "establishment". We're growing like crazy, hiring new people with varying experience and a fresh set of eyes. Our company wants that perspective to grow effectively, roll feedback into our products/services, and strive to be the best. 
 
- 
-
 This is the mature way to approach change. **It's not about fighting change, it's about embracing it**. It's understanding that while change may bring risk, it is necessary to stay relevant. Customers expect innovation and I have seen over and over again that they will invest in companies knowing that both the people and the products are prepared to change. They know a product won't be relevant forever, but they certainly want to make a choice that will not force change in the short term due to irrelevance.
-
- 
 
 ## Don't get left behind
 
 Your company should always be afraid of outside innovation and falling in the trap of routine. It's not just your immediate competitors. Other companies may take a risk, jump into a new market, and uncover a way to make your offerings less appealing. As an example, Amazon recently launched a competitor to Square, undercutting the fees charged and immediately becoming a player in a market where small businesses will absolutely want their money back. It's becoming the latest craze to disrupt markets. Another example: I recently had my first experience with Uber, a company that has leveraged technology to disrupt traditional taxi-based transportation. Let me say, it was fantastic. The car was there in a flash, it was clean, the driver knew where to go, and the experience was completely effective.  
 
- 
-
 Innovation is not always easy and may require you and your employees to get out your hard hats and thick skins. Companies should tell their employees to embrace open and honest criticism about how things can be done better. Why? This may be direct criticism to the hours of work other employees have invested in your products. But, feedback provides opportunities for those same employees to learn from one another and has the potential to improve your products. There are many ways I have seen this done. Code reviews are excellent opportunities to have one or more peers provide feedback. Automated tools like Github have pull requests and inline commenting features that allow remote employees to pull down others work, review, and give direct feedback. This isn't even all that time consuming to introduce.
 
- 
-
 Internal feedback will likely bring about positive change. But, **the freshest set of eyes comes from those outside of your organization**. Any company embracing change should provide opportunities to hear from their clients. Again, innovation should be to the benefit of those you serve. The bigger the change, the more likely the floodgates will open. Sometimes it is advantageous to run pilot programs and hear from a smaller, more targeted audience before opening up any significantly different changes to your entire customer base. Recall the Netflix saga a few years ago in which Netflix split up it's streaming and home-delivery services. There was a mass exodus of customers and widespread panic over the move. But, the move was widely regarded as a move of greed and less about client satisfaction or product improvement. Sorry Netflix, I didn't buy into your PR campaign.
-
- 
 
 ## The evolution
 
@@ -41,15 +29,11 @@ I believe many companies out there are afraid to embrace this mindset. I would s
 
 What about the employees. Your company will become the least desirable place to work. For the employees you currently have, your most motivated employees will realize it's no longer to their benefit to work in environments that do not embrace change. Why would an employee want to learn a 35-year-old Cobol system when no one else in the industry is looking for that talent anymore? I've witnessed companies that have to spend several months replacing staff and even more time getting them ramped up into "their ways" of business. **It's expensive to be stale** and requires much in-depth, institutional knowledge to even be serviceable. To cut costs, these companies need to identify and prioritize change, figure out the most innovative ways to change it, and get started immediately. Empower your employees to identify what they are interested in learning and make it a priority.
 
- 
-
 ## Over innovation is not the awesome sauce
 
 To be effective at innovating, you need to solve known problems. This requires a keen grasp on your competition, what they do well, and what they don't do well. You need to be strategic and identify where and how you will make the most impact. The best innovation, in my opinion, happens by making baby steps. You identify a problem people are facing and you deliberately chip away at the problem over time. Risky innovation is one that attempts to solve every single aspect of a large problem or multiple problems simultaneously. To be successful, a company must dig their heels in with the focus to be the best at something specific people want. You can't, and will never be, the best in everything.
 
 Open source projects have faced similar challenges. While specific development communities have truly innovated, pushed the norm, and built several well-adopted tools, the latest evolution is actually around consolidation. Drupal is a great example of this. In recently released versions, you have seen the inclusion of many well known JavaScript libraries like jQuery. **Adopting the best of breed tools is a welcomed alternative to reinventing the wheel.** The next release of Drupal, version 8, is an even better example of this. Drupal is finally moving into more of an object-oriented backend that supports functionality found in the more recent versions of PHP. But, maintainers recognized that other frameworks were well ahead of their framework in some respects (you can't be the best at everything). As such, a deliberate and thoughtful decision was made to replace some of Drupal's backend components with ones from the Symfony2 framework. Drupal improves as a "best of breed" solution, while welcoming Symfony developers to jump on the Drupal bandwagon. It may have been routine for Drupal contributors to continue to develop within it's own framework, but the problems Drupal faced were already solved elsewhere and this merger now enables the Drupal community to focus their innovation on other problems.
-
- 
 
 ## Conclusion
 

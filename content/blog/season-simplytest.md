@@ -3,7 +3,7 @@ title: "The Season of SimplyTest"
 date: 2019-01-18
 slug: "season-simplytest"
 tags: ["development", "drupal", "people"]
-description: "Last year was spent primarily learning about SimplyTest."
+description: "A transparent look at where SimplyTest.me stands, what progress was made in 2018, and what the roadmap looks like going forward."
 draft: false
 ---
 

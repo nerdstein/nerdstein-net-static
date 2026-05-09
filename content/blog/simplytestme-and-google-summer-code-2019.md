@@ -3,7 +3,7 @@ title: "SimplyTest.me and Google Summer of Code 2019"
 date: 2019-03-07
 slug: "simplytestme-and-google-summer-code-2019"
 tags: ["drupal", "people"]
-description: "SimplyTest.me is a project I continue to lead and volunteer my time to."
+description: "SimplyTest.me is participating in Google Summer of Code 2019 — here's what students can work on and why it matters for the project."
 draft: false
 ---
 
@@ -23,8 +23,6 @@ But, given the fairly niche nature of SimplyTest, a simple project description i
 
 Any student participating in this GSoC project would get a much broader experience than other projects potentially offer. And, while we have a current Drupal 7 based system with a highly customized infrastructure, this project will emphasize our future roadmap in a fresh, new system. This features the following modernized architecture:
 
- 
-
 - A Drupal 8 distribution
 
 - Integration with Drupal.org sponsored web service APIs
@@ -35,13 +33,9 @@ Any student participating in this GSoC project would get a much broader experien
 
 - Integration with Tugboat QA (this is still formally TBD, but a proof of concept in the old system is near completion)
 
- 
-
 ## Project ideas
 
 I want to stress that we need to make progress on the new system, not the current one in place. The following serve as some high-level ideas and “current state” of known needs. I will stress that a successful project proposal should reflect the necessary research and details needed to achieve the following ideas. The links below offer further details and insights helpful for an informed project plan.
-
- 
 
 - [Implement Tugboat QA](https://www.drupal.org/project/simplytest/issues/3036569) - The proof of concept is in the current Drupal 7 system. A Drupal 8-based equivalent will need to be developed. This may include porting the Tugboat QA module to Drupal 8. Students should research this platform and the current proof of concept to get an idea of the work needed.
 
@@ -52,8 +46,6 @@ I want to stress that we need to make progress on the new system, not the curren
 - [Feature parity](https://github.com/nerdstein/simplytest) - There are many [Drupal 7 specific features](https://cgit.drupalcode.org/simplytest/tree/) that would need to be ported for feature parity. Some current features are no longer required given the Tugboat QA integration. Students should evaluate the Drupal 7 distribution and articulate missing, but relevant features that can be accomplished in the project.
 
 - Analytics - New mechanisms will need to be in place to develop various usage-based reports from within Drupal 8. Students can share potential approaches to achieve this goal.
-
- 
 
 Please note that once we get a stable set of features, the Github repository will be moved to a 8.x branch on Drupal.org.
 

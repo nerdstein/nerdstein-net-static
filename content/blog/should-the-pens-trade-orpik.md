@@ -3,7 +3,7 @@ title: "Should the Pens trade Orpik?"
 date: 2013-01-01
 slug: "should-the-pens-trade-orpik"
 tags: ["sports"]
-description: "Much focus has been paid to Matt Niskanen or Simon Depres finding new towns."
+description: "The case for trading Brook Orpik — why the Penguins' organizational depth makes him more valuable as a trade chip than a roster fixture."
 draft: false
 ---
 

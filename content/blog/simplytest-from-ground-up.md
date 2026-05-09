@@ -3,7 +3,7 @@ title: "SimplyTest.me From The Ground Up"
 date: 2021-09-22
 slug: "simplytest-from-ground-up"
 tags: ["development", "drupal", "people"]
-description: "When I took over as the project lead for SimplyTest."
+description: "How SimplyTest.me was rebuilt from the ground up — the architecture, decisions, and lessons learned from a multi-year community effort."
 draft: false
 ---
 

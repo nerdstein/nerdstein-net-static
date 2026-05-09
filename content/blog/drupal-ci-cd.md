@@ -3,7 +3,7 @@ title: "Drupal CI/CD with TugboatQA and Github Actions"
 date: 2020-12-29
 slug: "drupal-ci-cd"
 tags: ["development", "drupal"]
-description: "Vacation this year has been amazing."
+description: "Building a full CI/CD pipeline for a Drupal site using TugboatQA and GitHub Actions, with GitOps from start to finish."
 draft: false
 ---
 

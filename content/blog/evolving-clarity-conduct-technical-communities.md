@@ -3,52 +3,35 @@ title: "Evolving Clarity of Conduct in Technical Communities"
 date: 2017-03-25
 slug: "evolving-clarity-conduct-technical-communities"
 tags: ["drupal", "people"]
-description: "In my previous two blog posts [one] [two], I shared my concerns and open questions over the recent events surrounding Crell and discussed my initial efforts to"
+description: "Examining how codes of conduct in technical communities are tested by hard cases, and what clarity of enforcement actually requires."
 draft: false
 ---
 
 In my previous two blog posts [[one](https://nerdstein.net/blog/troubling-situation-indeed)] [[two](https://nerdstein.net/blog/follow-more-informed-opinion-our-community-crisis)], I shared my concerns and open questions over the recent events surrounding Crell and discussed my initial efforts to become informed even when full transparency does not and likely will not exist. I have formed the opinion that those seeking answers and specifics may never get the level of detail they desire, both for legal and privacy reasons. I continue to engage with others in conversation out of respect for those processing these events and out of my desire to form a well-rounded and bias-free stance. With the complexities involved, there is no one right answer and we most importantly need to respect the broader discourse in participation of moving this forward.
 
- 
-
 The conclusion I drew in my last post is that we, as a community, need to seek clarity about potential boundaries. Many in the community are questioning how Crell could be asked to step down without violating the Code of Conduct. It occurred to me that **our Code of Conduct may never have evolved to handle this**. This is akin to an Agile process in which development teams continuously learn more about the needs of those they serve. Continuous learning warrants ongoing debate and improvement to our processes - these are not static because we, as people, are not static. **We may need to accept a level of ambiguity in processing these situations on a case-by-case basis **as part of the governance strategy. It's becoming clear that there is not just one right answer, but we direly need a framework for evolving our governance structures as potential issues arise.
-
- 
 
 ## Beyond Belief
 
 Members of our community should not feel threatened that their beliefs are not welcomed. To one who has given so much to the community, **there are very few details that describe how his situation was fairly evaluated**. But where is the line drawn between one's belief and the values held by the community? **This may be discretional**. Do we have the tools in place to help us evaluate circumstance and subsequently evolve over time? This [post](https://subfictional.com/thoughts-on-recent-drupal-governance-decisions/) written by Christie Kohler, a Drupal outsider, is a must-read about community and governance. I think we need to first acknowledge that any governance strategy should **avoid becoming an authority on morals or beliefs**. It needs to be a direct reflection of those that it serves. In this case, those served are members of the community. Evolved societies, in a general sense, make efforts to steer clear of telling citizens what it is they should believe. Citizens maintain the freedom to practice whatever beliefs they hold. Politicians often love to share their views on their own beliefs, which foster "us versus them" posturing in efforts to align voters with their policies. But, diversity is often upheld through law and the legal systems void of political discourse (see: separation of church and state).
 
- 
-
 A more "cut and dry" example is terrorism driven based on belief. When violence occurs, these actions performed by specific individuals violate law, regardless of an individual's belief. But, the issue is not the belief, it's the extreme interpretation of it. People are rightfully upset about Trump's Muslim travel ban and it has been legally shut down due to it's religious bias. Generally speaking, Muslims promote peace. Muslim leaders regularly dismiss the extremism as anything but Muslim. Muslim extremism exemplifies how our perception can distort that of a belief from that which brings harm. Crell's circumstances are hardly "cut and dry" based on his visible role in our community.
 
- 
-
 Crell presents a similar position of Gorean belief, posted in his recent [update](https://www.garfieldtech.com/blog/tmi-part-2) that suggests this is far from "cut and dry" (which we all knew). No one can truly speak to his, or any, individuals beliefs. We're all complex and diverse, right? While Crell has been more transparent (I personally have appreciated this knowing others have made fewer efforts), there remains bias. After reading both of his posts, Crell defends both his lifestyle and right to be different, but he also suggests that it doesn't change his posture for promoting women in the community. I'm not an expert, but Gor beliefs seem to contradict this from what I have read. This causes me to be confused on where he stands. And, conversely, no one is privy to the confidential information the CWG, DA, and Dries had to evaluate this (even Crell himself apparently). There seems to be a separation between lifestyle and belief. Crell practices Gorean lifestyles. This takes this a bit farther than just kink or bedroom role play, which many claim is his right (and it is). Simply put, and by his own admission, there is substantially more here than just beliefs. One can support his right to believe what he wishes and still acknowledge the difference between a belief and an active lifestyle. It is very likely this may have boiled down to interpretation or judgement of those evaluating. And, this emphasizes the importance of governance and clarity on alignment of values. 
-
- 
 
 ## Evolution in Legal System
 
 But, a valid question arises: can those with authority take action when a known violation does not occur? The Association and CWG was clear that Crell did not violate the Code of Conduct. This subject matter shares many parallels with legal systems found in our governments. In the United States legal system, the answer is "yes" because **our laws evolve as our society evolves**. Based on Dries and DA's response, Crell's case very likely warrants updates to the Code of Conduct or processes used to evaluate issues raised by community members to have transparency for others. Such legal issues are often noted as landmark cases in which new considerations challenge existing legal understanding. Evolved thought is an outcome of delicate deliberation, legal research, participation of others, attempts to remove bias, and potential appeals. In short: **action may be warranted whether or not there is precedence**. And, as I previously noted, this may have been a judgement call.
 
- 
-
 But, let's again revisit the point of fairness. Legal fairness happens through due process and with participation from various judges and juries. Legal proceedings often result in frustrated people protesting and deep discussions on our societal values. Sometimes judges receive criticism as well, much like Dries and others have been criticised. They don't always get it right, either. But, our legal systems hold even in the most sensitive of cases. Gag orders may occur to prevent the media from getting "one side of a story" to prevent shaping of public opinion without the full evidence. It was very clear that the public statements made by all have shifted public opinion. This is not new. As a simple example, recall when a woman spilled hot coffee on herself that was ordered from McDonalds. She filed a lawsuit after receiving burns. Public opinion weighed in on how unfair it was she filed a lawsuit against McDonalds. Common sense dictates that coffee is a hot drink and how could this woman have filed a lawsuit because of it? I later learned that the coffee maker was broken and heating the coffee several degrees hotter than it should have been. The woman sustained second degree burns. This was confirmed by the fact that she was awarded damages from the lawsuit. This was all part of the legal proceedings not easily grokked from simply reading a headline. I'm raising awareness that we cannot determine what is fair without all the facts. And, as my previous post suggested and as Christie Kohler's blog post noted: "a lack of details does not automatically indicate bad governance." I tend to believe Dries and others gave Crell significant consideration, for which even he may not be privy to. We all need to come to some clarity on what we believe to be "fair" knowing we don't have the full details.   
-
- 
 
 ## Retrospective
 
 Many of the participants in this process rely on the Drupal Community to be vibrant. I can't imagine this was an easy decision to ask an individual to step down that was actively helping sustain Drupal companies across the globe. People like Dries have built multi-million dollar companies on the results from Drupal community. It may be opinion, but I can almost guarantee you they are paying careful attention to the broader discourse surrounding this situation. Many in the community have been critical of their lack of details in response. In my first post, I suggested there may be legal reasons why participants are not being more transparent. This still holds true. Listening can still happen without responding. They may not know what details can be shared or they may be planning to share more later. We can't rule out that they may change their stance on it - we're all learning, right? 
 
- 
-
 Those in the CWG, DA, and Dries himself may want to consider a retrospective. A retrospective may provide an effective tool to deliberate on what participants learned. This is an Agile-based tool used to capture the findings of the team and discuss next steps as a group. Many in the community have begun to engage with these organizations through Github issues, blog posts, Slack discussions, and more. That feedback can be organized for discussion in the retrospective. I would think the organizations can share the findings (void of specifics) to help promote transparency on what they learned from this experience.
-
- 
 
 ## Parting Thoughts
 
 We need to be aware that there will also be future situations that challenge our existing code of conduct or community values. The key is not what we do with this situation but how we evolve and handle future situations. We can't be so quick to judge those interpreting community values in our current governnance practices. But, we need assurances that our community supports a framework that allows for careful, thoughtful, and constructive analysis of each situation in as transparent as a means possible. Maybe we can look to the legal systems for guidance on next steps and Agile tools like a retrospective for holding the discussion.
+
