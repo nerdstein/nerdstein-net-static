@@ -1,0 +1,30 @@
+<svg viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A bare winter tree with a single new shoot emerging — quietly resilient">
+  <path d="M 30 168 C 80 169.5 180 169 272 168" stroke="currentColor" stroke-width="1.1" stroke-linecap="round" opacity="0.12"/>
+  <path d="M 138 166 C 136 148 134 128 133 112 C 132 98 133 86 135 72 C 136 60 137 48 138 36" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 144 166 C 143 150 142 130 142 114 C 141 100 141 87 142 73 C 143 61 143 49 142 36" stroke="currentColor" stroke-width="1.0" stroke-linecap="round" opacity="0.22"/>
+  <path d="M 127 165 C 124 162 122 158 126 156 C 130 154 134 157 138 166" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.55"/>
+  <path d="M 152 163 C 155 160 157 156 153 155 C 149 154 145 158 142 166" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity="0.55"/>
+  <path d="M 135 100 C 120 95 100 87 80 76 C 66 68 54 63 44 60" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/>
+  <path d="M 64 69 C 56 62 48 55 42 50" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M 60 72 C 53 72 46 74 42 78" stroke="currentColor" stroke-width="1.0" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 140 88 C 156 80 172 70 188 60 C 200 52 212 45 222 40" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/>
+  <path d="M 204 50 C 210 43 216 37 220 31" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M 208 54 C 214 55 220 58 224 63" stroke="currentColor" stroke-width="1.0" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 136 72 C 124 65 110 57 96 50 C 86 44 78 38 72 33" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 80 38 C 76 32 72 26 70 20" stroke="currentColor" stroke-width="1.0" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 76 40 C 70 39 64 40 60 44" stroke="currentColor" stroke-width="0.9" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 140 62 C 152 55 164 47 175 40 C 184 34 191 29 196 24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 188 28 C 192 23 196 17 198 12" stroke="currentColor" stroke-width="1.0" stroke-linecap="round" opacity="0.7"/>
+  <path d="M 194 30 C 198 29 203 30 207 34" stroke="currentColor" stroke-width="0.9" stroke-linecap="round" opacity="0.6"/>
+  <path d="M 138 36 C 136 29 135 22 134 16" stroke="currentColor" stroke-width="1.1" stroke-linecap="round" opacity="0.65"/>
+  <path d="M 138 36 C 141 30 144 24 145 18" stroke="currentColor" stroke-width="0.9" stroke-linecap="round" opacity="0.5"/>
+  <path d="M 136 120 C 120 118 104 118 90 122 C 78 125 66 130 56 136" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+  <path d="M 70 130 C 64 127 57 124 52 122" stroke="currentColor" stroke-width="1.0" stroke-linecap="round" opacity="0.55"/>
+  <path d="M 134 128 C 128 124 121 119 116 113 C 112 108 111 103 114 99" stroke="var(--color-accent)" stroke-width="1.8" stroke-linecap="round" opacity="0.9"/>
+  <path d="M 114 99 C 110 93 107 87 110 82 C 113 78 118 80 117 85 C 116 90 115 95 114 99" stroke="var(--color-accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+  <path d="M 116 106 C 122 101 128 97 132 93 C 136 89 137 84 134 82 C 130 81 125 85 121 90 C 117 95 116 101 116 106" stroke="var(--color-accent)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+  <path d="M 112 110 C 108 108 104 107 102 104 C 100 101 102 97 105 97 C 108 97 111 100 112 104 C 113 107 112 109 112 110" stroke="var(--color-accent)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" opacity="0.6"/>
+  <path d="M 113 92 C 114 90 115 88 115 86" stroke="var(--color-accent)" stroke-width="0.9" stroke-linecap="round" opacity="0.45"/>
+  <path d="M 122 94 C 125 91 127 88 129 86" stroke="var(--color-accent)" stroke-width="0.9" stroke-linecap="round" opacity="0.38"/>
+  <path d="M 114 170 C 124 173 154 173 166 170" stroke="currentColor" stroke-width="1.0" stroke-linecap="round" opacity="0.10"/>
+</svg>
