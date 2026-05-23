@@ -7,7 +7,7 @@ description: "A reflection on losing family, a marriage, and two jobs in quick s
 draft: false
 ---
 
-> "Life changes fast. Life changes in the instant. You sit down to dinner and life as you know it ends." — Joan Didion, *The Year of Magical Thinking*
+> "Not until we are lost do we begin to find ourselves." — Henry David Thoreau, *Walden*
 
 I recently watched three films back to back — *Eleanor the Great*, *Eternity*, and *I Want to Talk*. They have nothing in common on the surface: a grieving widow reinventing herself in New York, a woman choosing between two loves in the afterlife, a dying man quietly repairing things with his daughter. But sitting with all three in the span of a few days, something kept surfacing. Each film is really about who you are once the scaffolding falls away. Once the roles you built yourself around — caretaker, provider, partner, parent — no longer look the way they used to.
 
