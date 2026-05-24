@@ -66,6 +66,82 @@ All illustrations on nerdstein.net use an **organic, hand-drawn stroke style**. 
 - All SVGs should work inline in HTML or as `<img src="...">`
 - Use `fill="none"` and `stroke` for line art — no filled shapes unless it's a small accent detail
 
+## Blog Post Illustrations
+
+Blog post illustrations are the most complex asset type. They accompany personal essays and must communicate a specific concept, not just decorate. Follow all rules below before saving.
+
+### Viewbox and composition
+
+- Use `viewBox="0 0 300 180"` for all blog post illustrations
+- Divide the canvas into clear zones. For a two-scene contrast composition (e.g. before/after, loss/life): left scene occupies roughly x=20–140, right scene x=160–280. Leave breathing room between.
+- Never center both elements — stagger vertical positions slightly so they feel like a sketch, not a diagram.
+
+### Double-stroke technique (required for all major outlines)
+
+Every structural edge gets two overlapping paths:
+1. **Primary**: `stroke-width="2.2"`, full opacity
+2. **Ghost**: same path offset 0.5px, `stroke-width="1.0"`, `opacity="0.28"`
+
+This is what makes lines feel drawn rather than rendered. Apply it to: trunks, stump sides, building walls, any load-bearing outline.
+
+### Organic mass (trees, clouds, foliage)
+
+For any filled-looking mass drawn as strokes:
+- **Outline**: one closed bezier path at `stroke-width="1.6"`
+- **Inner shadow**: same path shrunk 2–3px inward, `stroke-width="0.8"`, `opacity="0.22"`
+- **Hatching**: 10–15 diagonal strokes inside the mass at varying lengths, `stroke-width="1.0–1.1"`, `opacity="0.20–0.32"`. Vary spacing and angle slightly — not a perfect grid.
+- **Edge texture**: 4–6 short irregular bumps along the outline perimeter, `stroke-width="1.0"`, `opacity="0.30–0.40"`. Break up smooth curves to suggest leaf clusters or rough surfaces.
+
+### Human figures
+
+Human figures are hard to read at small SVG scales. Follow these rules exactly:
+
+**Scale**: In a 300×180 viewBox, a seated figure needs a head radius of 8–10 units. Anything smaller disappears.
+
+**Color**: ALL figure paths must use `stroke="var(--color-accent)"`. This creates contrast against the `currentColor` environment around the figure. Never use `currentColor` for a figure.
+
+**Stroke weight**: `stroke-width="2.2"` for all body parts (head, shoulders, torso, arms, legs). `stroke-width="1.6"` for feet.
+
+**Seated figure construction** (use these proportions as baseline):
+- Head: `<circle>` double-stroked at 2.2 + 0.9 (50% opacity inner)
+- Neck: short vertical path, 4–5 units
+- Shoulders: arc spanning ~20 units wide, drooping slightly
+- Torso: vertical path, ~18 units long
+- Arms: curve OUTWARD first (±6 units from shoulder), then back in to meet the lap. Never draw arms straight down.
+- Lap: horizontal stroke at stump/surface top
+- Legs: **CRITICAL — legs must spread WIDER than whatever the figure sits on.** If the figure sits on a 22px-wide stump, legs must reach at least 8–10px beyond each stump edge at the bottom. Legs that run parallel to stump sides look like they're inside the stump, not hanging off it.
+- Feet: short angled strokes at the bottom of each leg, pointing outward
+
+**Standing figure**: head circle, neck, shoulders arc, torso, two legs angling slightly apart, feet. Same color and weight rules apply.
+
+### Proportion matching in multi-element scenes
+
+When drawing two related objects (e.g. a full tree and a stump), they must share proportional logic:
+- Stump width should equal trunk width at ground level (~20–24px for a 300-wide SVG)
+- Stump height should be 25–35% of tree height — tall enough to sit on, not a sliver
+- Bark texture, ring detail, and stroke weights should be consistent across both
+
+### Ground, atmosphere, and supporting detail
+
+Every illustration needs grounding:
+- **Ground line**: a single gently-curved `<path>` across the full width, `stroke-width="1.4"`, `opacity="0.55"`. Never a straight `<line>`.
+- **Grass tufts**: pairs of short diagonal strokes at the base of objects, `stroke-width="0.9"`, `opacity="0.35"`
+- **Sprouts/small details**: if the concept calls for growth or hope, a delicate 0.9px sprout with tiny leaf shapes adds meaning without clutter
+
+### Pre-save checklist
+
+Before writing the SVG file, verify:
+- [ ] Is there a human figure? Is it in `var(--color-accent)`? Is the head radius ≥ 8?
+- [ ] Are the figure's legs/feet clearly wider than the surface they're sitting on?
+- [ ] Do all structural outlines have the double-stroke (2.2px primary + 1.0px ghost at 0.28 opacity)?
+- [ ] Does any organic mass (tree canopy, cloud) have outline + hatching + edge bumps?
+- [ ] Are proportions consistent between related elements (trunk width = stump width)?
+- [ ] Is there a ground line?
+- [ ] Is every path using `currentColor` or `var(--color-accent)` — no hardcoded hex?
+- [ ] Does the file stay under 12KB? (blog illustrations can go up to 12KB; icons stay under 3KB)
+
+---
+
 ## What you produce
 
 ### Category Icons (64×64 SVG)
