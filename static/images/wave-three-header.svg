@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="1200" height="480">
+
+  <!-- Background -->
+  <rect width="1200" height="480" fill="#faf8f4"/>
+
+
+  <!-- ═══ ZONE 1: Choppy waves — scattered tools floating above ═══ -->
+
+  <!-- Scattered floating tool icons above the choppy water -->
+  <!-- Laptop icon (small rect + screen line) -->
+  <rect x="82" y="208" width="28" height="20" rx="2" fill="none" stroke="#2a2823" stroke-width="1.3" stroke-linecap="round"/>
+  <line x1="72" y1="228" x2="122" y2="228" stroke="#2a2823" stroke-width="1.3" stroke-linecap="round"/>
+  <line x1="86" y1="218" x2="106" y2="218" stroke="#2a2823" stroke-width="0.8" opacity="0.5" stroke-linecap="round"/>
+  <!-- Chat bubble -->
+  <rect x="198" y="240" width="32" height="22" rx="6" fill="none" stroke="#2a2823" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M 206,262 L 202,270 L 212,262" fill="none" stroke="#2a2823" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Terminal icon -->
+  <rect x="295" y="195" width="32" height="22" rx="2" fill="none" stroke="#2a2823" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M 300,203 L 306,207 L 300,211" fill="none" stroke="#2a2823" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="308" y1="211" x2="318" y2="211" stroke="#2a2823" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+  <!-- Small dots / scattered tokens floating -->
+  <circle cx="148" cy="270" r="3" fill="none" stroke="#2a2823" stroke-width="1" opacity="0.4"/>
+  <circle cx="255" cy="225" r="3" fill="none" stroke="#2a2823" stroke-width="1" opacity="0.35"/>
+  <circle cx="335" cy="255" r="3" fill="none" stroke="#2a2823" stroke-width="1" opacity="0.4"/>
+  <!-- Dashed lines from icons going nowhere (disconnected) -->
+  <line x1="96" y1="208" x2="110" y2="192" stroke="#2a2823" stroke-width="0.8" stroke-dasharray="3 4" opacity="0.3" stroke-linecap="round"/>
+  <line x1="214" y1="240" x2="250" y2="228" stroke="#2a2823" stroke-width="0.8" stroke-dasharray="3 4" opacity="0.25" stroke-linecap="round"/>
+  <line x1="311" y1="195" x2="290" y2="180" stroke="#2a2823" stroke-width="0.8" stroke-dasharray="3 4" opacity="0.3" stroke-linecap="round"/>
+
+  <!-- Choppy wave water body -->
+  <path d="M 30,352
+    C 42,352 43,328 56,327
+    C 69,326 70,353 83,354
+    C 96,355 97,327 110,325
+    C 123,323 125,354 138,356
+    C 151,358 152,324 166,322
+    C 180,320 181,355 194,357
+    C 207,359 208,326 222,324
+    C 236,322 237,356 250,357
+    C 263,358 264,324 278,322
+    C 292,320 293,354 306,355
+    C 319,356 320,323 334,322
+    C 348,321 350,352 363,353
+    C 376,354 378,340 385,342
+    L 385,445 L 30,445 Z"
+    fill="#ddd8d0"/>
+
+  <!-- Choppy wave outline -->
+  <path d="M 30,352
+    C 42,352 43,328 56,327
+    C 69,326 70,353 83,354
+    C 96,355 97,327 110,325
+    C 123,323 125,354 138,356
+    C 151,358 152,324 166,322
+    C 180,320 181,355 194,357
+    C 207,359 208,326 222,324
+    C 236,322 237,356 250,357
+    C 263,358 264,324 278,322
+    C 292,320 293,354 306,355
+    C 319,356 320,323 334,322
+    C 348,321 350,352 363,353
+    C 376,354 378,340 385,342"
+    fill="none" stroke="#2a2823" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Whitecap spray above select peaks -->
+  <line x1="52" y1="321" x2="47" y2="311" stroke="#2a2823" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+  <line x1="58" y1="322" x2="65" y2="312" stroke="#2a2823" stroke-width="1" stroke-linecap="round" opacity="0.45"/>
+  <line x1="162" y1="316" x2="157" y2="305" stroke="#2a2823" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+  <line x1="168" y1="317" x2="175" y2="307" stroke="#2a2823" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+  <line x1="274" y1="316" x2="269" y2="306" stroke="#2a2823" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+  <line x1="280" y1="317" x2="287" y2="308" stroke="#2a2823" stroke-width="1" stroke-linecap="round" opacity="0.4"/>
+  <line x1="330" y1="317" x2="325" y2="307" stroke="#2a2823" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Water depth lines zone 1 -->
+  <path d="M 35,372 C 80,367 140,375 200,370 C 260,365 320,373 383,368" fill="none" stroke="#2a2823" stroke-width="0.7" stroke-linecap="round" opacity="0.22"/>
+  <path d="M 35,390 C 80,386 140,393 200,388 C 260,383 320,391 383,387" fill="none" stroke="#2a2823" stroke-width="0.7" stroke-linecap="round" opacity="0.15"/>
+  <path d="M 35,410 C 80,407 140,413 200,409 C 260,405 320,411 383,408" fill="none" stroke="#2a2823" stroke-width="0.7" stroke-linecap="round" opacity="0.1"/>
+
+
+  <!-- ═══ ZONE 2: Medium swells — tools starting to stack/organize ═══ -->
+
+  <!-- Personal stack icons above swells (more organized than zone 1 but still siloed) -->
+  <!-- Stack A -->
+  <rect x="472" y="200" width="52" height="14" rx="2" fill="none" stroke="#2a2823" stroke-width="1.3" stroke-linecap="round"/>
+  <rect x="476" y="210" width="52" height="14" rx="2" fill="none" stroke="#2a2823" stroke-width="1.3" stroke-linecap="round" opacity="0.7"/>
+  <rect x="480" y="220" width="52" height="14" rx="2" fill="none" stroke="#2a2823" stroke-width="1.3" stroke-linecap="round" opacity="0.45"/>
+  <!-- Stack B -->
+  <rect x="638" y="185" width="52" height="14" rx="2" fill="none" stroke="#2a2823" stroke-width="1.3" stroke-linecap="round"/>
+  <rect x="642" y="195" width="52" height="14" rx="2" fill="none" stroke="#2a2823" stroke-width="1.3" stroke-linecap="round" opacity="0.7"/>
+  <rect x="646" y="205" width="52" height="14" rx="2" fill="none" stroke="#2a2823" stroke-width="1.3" stroke-linecap="round" opacity="0.45"/>
+  <!-- Faint awareness line between stacks -->
+  <line x1="524" y1="212" x2="638" y2="200" stroke="#2a2823" stroke-width="0.8" stroke-dasharray="4 5" opacity="0.2" stroke-linecap="round"/>
+
+  <!-- Medium swell water body -->
+  <path d="M 415,368
+    C 448,368 462,318 496,308
+    C 530,298 552,368 585,372
+    C 618,376 634,310 668,302
+    C 702,294 724,368 757,372
+    C 768,374 776,368 785,370
+    L 785,445 L 415,445 Z"
+    fill="#ddd8d0"/>
+
+  <!-- Medium swell outline -->
+  <path d="M 415,368
+    C 448,368 462,318 496,308
+    C 530,298 552,368 585,372
+    C 618,376 634,310 668,302
+    C 702,294 724,368 757,372
+    C 768,374 776,368 785,370"
+    fill="none" stroke="#2a2823" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Light foam at medium swell peaks -->
+  <line x1="492" y1="303" x2="488" y2="294" stroke="#2a2823" stroke-width="1.2" stroke-linecap="round" opacity="0.4"/>
+  <line x1="498" y1="304" x2="504" y2="295" stroke="#2a2823" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
+  <line x1="663" y1="297" x2="659" y2="287" stroke="#2a2823" stroke-width="1.2" stroke-linecap="round" opacity="0.4"/>
+  <line x1="670" y1="298" x2="676" y2="289" stroke="#2a2823" stroke-width="1" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- Water depth lines zone 2 -->
+  <path d="M 420,388 C 480,383 550,390 620,386 C 690,382 745,388 783,385" fill="none" stroke="#2a2823" stroke-width="0.7" stroke-linecap="round" opacity="0.22"/>
+  <path d="M 420,406 C 480,402 550,409 620,404 C 690,400 745,406 783,403" fill="none" stroke="#2a2823" stroke-width="0.7" stroke-linecap="round" opacity="0.15"/>
+  <path d="M 420,424 C 480,421 550,427 620,423 C 690,419 745,424 783,422" fill="none" stroke="#2a2823" stroke-width="0.7" stroke-linecap="round" opacity="0.1"/>
+
+
+  <!-- ═══ ZONE 3: One big organized wave ═══ -->
+
+  <!-- Seagulls above for whimsy -->
+  <path d="M 878,92 Q 890,82 902,92" fill="none" stroke="#2a2823" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 935,72 Q 948,61 961,72" fill="none" stroke="#2a2823" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M 1080,108 Q 1092,99 1104,108" fill="none" stroke="#2a2823" stroke-width="1.3" stroke-linecap="round"/>
+  <path d="M 1130,82 Q 1140,74 1150,82" fill="none" stroke="#2a2823" stroke-width="1.2" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Big wave water body -->
+  <path d="M 815,385
+    C 845,385 868,365 898,338
+    C 926,312 948,270 965,232
+    C 976,208 986,186 995,170
+    C 1001,160 1010,155 1020,160
+    C 1030,165 1032,182 1025,210
+    C 1016,242 998,268 1018,300
+    C 1040,334 1085,356 1125,370
+    C 1152,380 1168,384 1175,385
+    L 1175,445 L 815,445 Z"
+    fill="#ddd8d0"/>
+
+  <!-- Big wave outline (ink) -->
+  <path d="M 815,385
+    C 845,385 868,365 898,338
+    C 926,312 948,270 965,232
+    C 976,208 986,186 995,170
+    C 1001,160 1010,155 1020,160
+    C 1030,165 1032,182 1025,210
+    C 1016,242 998,268 1018,300
+    C 1040,334 1085,356 1125,370
+    C 1152,380 1168,384 1175,385"
+    fill="none" stroke="#2a2823" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Curling crest in orange (the lip of the wave) -->
+  <path d="M 995,170
+    C 1001,160 1010,155 1020,160
+    C 1030,165 1032,182 1025,210"
+    fill="none" stroke="#c8531a" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Orange spray at the crest -->
+  <line x1="1008" y1="150" x2="1001" y2="138" stroke="#c8531a" stroke-width="1.8" stroke-linecap="round" opacity="0.85"/>
+  <line x1="1015" y1="153" x2="1024" y2="142" stroke="#c8531a" stroke-width="1.6" stroke-linecap="round" opacity="0.75"/>
+  <line x1="1005" y1="155" x2="996" y2="144" stroke="#c8531a" stroke-width="1.3" stroke-linecap="round" opacity="0.6"/>
+  <line x1="1021" y1="157" x2="1032" y2="148" stroke="#c8531a" stroke-width="1.2" stroke-linecap="round" opacity="0.55"/>
+  <circle cx="1000" cy="135" r="2" fill="#c8531a" opacity="0.5"/>
+  <circle cx="1018" cy="139" r="1.5" fill="#c8531a" opacity="0.45"/>
+  <circle cx="1026" cy="145" r="1.5" fill="#c8531a" opacity="0.4"/>
+
+  <!-- Surfer figure at the crest (orange) -->
+  <!-- Feet roughly at the back face of wave around (990, 174) -->
+  <circle cx="988" cy="150" r="6" fill="none" stroke="#c8531a" stroke-width="2" stroke-linecap="round"/>
+  <line x1="988" y1="156" x2="988" y2="174" stroke="#c8531a" stroke-width="2" stroke-linecap="round"/>
+  <!-- Arms spread wide for balance -->
+  <line x1="988" y1="163" x2="974" y2="170" stroke="#c8531a" stroke-width="2" stroke-linecap="round"/>
+  <line x1="988" y1="163" x2="1002" y2="168" stroke="#c8531a" stroke-width="2" stroke-linecap="round"/>
+  <!-- Legs in surf stance -->
+  <line x1="988" y1="174" x2="980" y2="188" stroke="#c8531a" stroke-width="2" stroke-linecap="round"/>
+  <line x1="988" y1="174" x2="996" y2="188" stroke="#c8531a" stroke-width="2" stroke-linecap="round"/>
+  <!-- Board -->
+  <path d="M 976,189 C 978,193 998,193 1000,189 C 998,185 978,185 976,189 Z" fill="#c8531a" opacity="0.75"/>
+
+  <!-- Water depth lines zone 3 -->
+  <path d="M 820,405 C 880,400 950,408 1020,403 C 1090,398 1145,406 1173,402" fill="none" stroke="#2a2823" stroke-width="0.7" stroke-linecap="round" opacity="0.22"/>
+  <path d="M 820,422 C 880,418 950,425 1020,420 C 1090,415 1145,422 1173,419" fill="none" stroke="#2a2823" stroke-width="0.7" stroke-linecap="round" opacity="0.15"/>
+  <path d="M 820,437 C 880,434 950,440 1020,436 C 1090,432 1145,438 1173,435" fill="none" stroke="#2a2823" stroke-width="0.7" stroke-linecap="round" opacity="0.1"/>
+
+
+  <!-- Zone dividers (very subtle) -->
+  <line x1="400" y1="270" x2="400" y2="448" stroke="#2a2823" stroke-width="1" stroke-dasharray="3 7" opacity="0.18"/>
+  <line x1="800" y1="270" x2="800" y2="448" stroke="#2a2823" stroke-width="1" stroke-dasharray="3 7" opacity="0.18"/>
+
+  <!-- Zone labels -->
+  <text x="207" y="466" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#8a7560" font-style="italic">Wave 1 — Exploration</text>
+  <text x="600" y="466" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#8a7560" font-style="italic">Wave 2 — Adoption</text>
+  <text x="995" y="466" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#c8531a" font-style="italic" font-weight="bold">Wave 3 — Maturity</text>
+
+</svg>
