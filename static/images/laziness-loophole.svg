@@ -1,0 +1,87 @@
+<svg viewBox="0 0 300 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A person leaning back at a desk presses an approve button while an unread scroll of text spills off the laptop onto the floor; a dashed line leads to a wastebasket on fire">
+  <style>
+    svg { --ink: #1a1a1a; --accent: #c85a00; }
+    @media (prefers-color-scheme: dark) { svg { --ink: #e8e4dc; --accent: #f07830; } }
+    path, circle { stroke-linecap: round; stroke-linejoin: round; }
+    .i { stroke: var(--ink); }
+    .a { stroke: var(--accent); }
+  </style>
+  <!-- horizon + ground -->
+  <path class="i" d="M 10 162 C 80 159 200 160 290 162" stroke-width="6" opacity="0.06"/>
+  <path class="i" d="M 10 165 C 60 166.2 115 165.7 160 165.2 C 205 164.7 250 165.1 290 165" stroke-width="1.4" opacity="0.55"/>
+  <!-- grass tufts -->
+  <path class="i" d="M 18 165 C 17.5 162 16 159.5 15.5 157 M 21 165 C 21.5 162 23 159 23.5 157" stroke-width="0.9" opacity="0.35"/>
+  <path class="i" d="M 206 165 C 205.5 162 204 159.5 203.5 157 M 209 165 C 209.5 162 211 159 211.5 157" stroke-width="0.9" opacity="0.35"/>
+  <path class="i" d="M 272 165 C 271.5 162 270 159.5 269.5 157 M 275 165 C 275.5 162 277 159 277.5 156.5" stroke-width="0.9" opacity="0.35"/>
+
+  <!-- stool -->
+  <path class="i" d="M 25 132 C 33 131.2 42 131.2 50 132" stroke-width="2.2"/>
+  <path class="i" d="M 25 132.6 C 33 131.8 42 131.8 50 132.6" stroke-width="1.0" opacity="0.28"/>
+  <path class="i" d="M 29 133 C 28.6 144 28.2 154 27.5 164.5 M 46 133 C 46.6 144 47.2 154 48 164.5" stroke-width="2.0"/>
+  <path class="i" d="M 29.5 146 C 35 145.4 40 145.4 46.5 146" stroke-width="1.1" opacity="0.32"/>
+
+  <!-- desk -->
+  <path class="i" d="M 60 118 C 85 117.2 110 117.4 134 118" stroke-width="2.2"/>
+  <path class="i" d="M 60 118.6 C 85 117.8 110 118 134 118.6" stroke-width="1.0" opacity="0.28"/>
+  <path class="i" d="M 61 121.5 C 85 121 110 121.2 133 121.6" stroke-width="1.1" opacity="0.3"/>
+  <path class="i" d="M 70 122 C 70.4 136 70.6 150 70.2 165 M 125 122 C 124.6 136 124.8 150 125.4 165" stroke-width="2.2"/>
+  <path class="i" d="M 70.6 122 C 71 136 71.2 150 70.8 165 M 125.6 122 C 125.2 136 125.4 150 126 165" stroke-width="1.0" opacity="0.28"/>
+
+  <!-- laptop -->
+  <path class="i" d="M 86 116 C 86.6 106 87.2 96 88.4 87 C 99 86.2 110 86.2 120 87 C 120.8 96 121.4 106 122 116" stroke-width="2.2"/>
+  <path class="i" d="M 86.5 116.4 C 87.1 106 87.7 96 88.9 87.5 C 99 86.7 110 86.7 119.5 87.5" stroke-width="1.0" opacity="0.28"/>
+  <path class="i" d="M 91 112 C 91.4 105 91.8 98 92.6 91 C 100 90.5 108 90.5 116 91 C 116.6 98 117 105 117.4 112 Z" stroke-width="1.0" opacity="0.22"/>
+  <path class="i" d="M 82 117.4 C 96 116.4 112 116.4 126 117.4" stroke-width="2.0"/>
+  <!-- screen text: a few lines read, the rest ignored -->
+  <path class="i" d="M 95 95 C 100 94.7 106 94.8 112 95 M 95 99 C 99 98.8 104 98.9 108 99" stroke-width="1.1" opacity="0.4"/>
+  <path class="i" d="M 95 103 C 100 102.8 106 102.9 113 103 M 95 107 C 98 106.8 101 106.9 104 107" stroke-width="1.0" opacity="0.2"/>
+
+  <!-- the wall of text: scroll spilling off the desk -->
+  <path class="i" d="M 121 106 C 127 107.5 131 112 132.5 119 C 133.5 134 132.6 149 134 159 C 136 164.6 150 164.8 170 164.2" stroke-width="1.8"/>
+  <path class="i" d="M 122 100 C 133 101.5 140.5 108 142 119 C 143 134 142.2 147 144.4 154.5 C 147 158.6 152 158.4 156 157.8" stroke-width="1.8"/>
+  <path class="i" d="M 156 157.8 C 158 150 168 148 171 155 C 173 151 179 150 181 156 C 182.6 161 178 164.6 170 164.2" stroke-width="1.6"/>
+  <path class="i" d="M 171 155 C 171.6 158 171.4 161 170.6 164 M 176 158 C 178 157.6 179 159 178 160.4" stroke-width="1.1" opacity="0.4"/>
+  <path class="i" d="M 160 157 C 162 156.6 164 156.6 166 157 M 174 157.4 C 175.4 157.2 176.6 157.3 178 157.6" stroke-width="1.0" opacity="0.28"/>
+  <path class="i" d="M 134.4 126 C 136.5 125.8 138.5 125.9 140.4 126 M 134.6 131 C 136 130.8 138.6 130.9 140.6 131 M 134.4 136 C 136.4 135.8 137.8 135.9 139.6 136 M 134.6 141 C 136.5 140.8 138.4 140.9 140.6 141 M 134.4 146 C 135.8 145.8 137.6 145.9 139.4 146 M 135.4 151 C 137.4 150.8 139.6 150.9 141.6 151" stroke-width="1.0" opacity="0.3"/>
+  <path class="i" d="M 146 159.6 C 148 159.3 150 159.3 152 159.4 M 145 162 C 147.6 161.8 150 161.8 153 161.6" stroke-width="1.0" opacity="0.28"/>
+
+  <!-- approve button with check -->
+  <path class="i" d="M 64 117.6 C 64 110.6 80 110.4 80 117.6" stroke-width="2.0"/>
+  <path class="i" d="M 64.5 117.6 C 64.5 111.2 79.5 111 79.5 117.6" stroke-width="1.0" opacity="0.28"/>
+  <path class="a" d="M 67.6 115 C 68.6 115.8 69.6 116.6 70.4 117 C 72 115.2 74 113.6 76.2 112.8" stroke-width="1.7"/>
+  <!-- click marks -->
+  <path class="a" d="M 77 106 C 78 104.6 78.8 103.6 80 102.6 M 81 109.6 C 82.6 109 84 108.8 85.6 108.8" stroke-width="1.2" opacity="0.7"/>
+
+  <!-- figure: leaning back, one hand on the button -->
+  <circle class="a" cx="33" cy="80" r="9" stroke-width="2.2"/>
+  <circle class="a" cx="33.4" cy="80.4" r="8.4" stroke-width="0.9" opacity="0.5"/>
+  <path class="a" d="M 34 89 C 34.4 90.5 34.7 92 35 93.5" stroke-width="2.2"/>
+  <path class="a" d="M 35 93.5 C 35.6 105 36.6 118 38.4 130" stroke-width="2.2"/>
+  <path class="a" d="M 35.6 97 C 42 100 48 104 53 107.6 C 59 109.4 65 110.6 71.6 111.2" stroke-width="2.2"/>
+  <path class="a" d="M 35.4 99 C 32 106 32 114 36 121 C 39 125 43 127.6 47 128.6" stroke-width="2.2"/>
+  <path class="a" d="M 38.4 130 C 44 130.4 50 130.8 56 131.4 C 56.6 141 57.2 151 57.8 162" stroke-width="2.2"/>
+  <path class="a" d="M 40 131.6 C 45 132.4 49 133 53 133.8 C 52.4 143 52 153 51.6 163.4" stroke-width="2.2"/>
+  <path class="a" d="M 57.8 162 C 60 162.6 62.6 163 65 163.2 M 51.6 163.4 C 53.8 163.8 56 164.2 58.4 164.4" stroke-width="1.6"/>
+
+  <!-- dashed path: the agent acts -->
+  <path class="i" d="M 180 120 C 188 113 197 112 204.6 117.4" stroke-width="1.4" stroke-dasharray="3 4" opacity="0.6"/>
+  <path class="i" d="M 199.4 112.6 C 201.4 114.4 203 115.8 204.6 117.4 C 202.4 118 200.4 118.6 198 119.6" stroke-width="1.4" opacity="0.6"/>
+
+  <!-- wastebasket -->
+  <path class="i" d="M 215 122 C 230 119.4 250 119.4 265 122 C 250 124.6 230 124.6 215 122 Z" stroke-width="2.0"/>
+  <path class="i" d="M 217 123.4 C 219 137 221 151 223 164 M 263 123.4 C 261 137 259 151 257 164" stroke-width="2.2"/>
+  <path class="i" d="M 217.5 123.4 C 219.5 137 221.5 151 223.5 164 M 263.5 123.4 C 261.5 137 259.5 151 257.5 164" stroke-width="1.0" opacity="0.28"/>
+  <path class="i" d="M 223 164 C 234 164.8 246 164.8 257 164" stroke-width="2.0"/>
+  <path class="i" d="M 230 128 C 231 139 232 150 233.4 160 M 240 128.4 C 240.2 139 240.2 150 240 161 M 250 128 C 249 139 248 150 246.8 160" stroke-width="1.1" opacity="0.32"/>
+
+  <!-- fire -->
+  <path class="a" d="M 222 121 C 214 109 223 99 226 87 C 231 96 235 98 236 90 C 237.6 80 243 74 244 62 C 252 74 261 86 255 100 C 259.6 96.6 261.4 92.6 262 88 C 268 100 266 112 258 121" stroke-width="2.0" fill="var(--accent)" fill-opacity="0.12"/>
+  <path class="a" d="M 222.6 120.4 C 215 109 223.6 99.6 226.4 88.4" stroke-width="1.0" opacity="0.3"/>
+  <path class="a" d="M 234 121 C 230 112.6 235.6 106 238 98 C 241.4 103.6 245 104 246 96 C 252 105 254.6 114 249 121" stroke-width="1.7" opacity="0.8"/>
+  <path class="a" d="M 240.6 121 C 239 116.6 241 113 243 110 C 245 113 246.4 117 245 121" stroke-width="1.2" opacity="0.6"/>
+  <!-- sparks -->
+  <path class="a" d="M 228 76 C 228.4 75 228.8 74.2 229.4 73.4 M 262 76 C 262.8 75.4 263.4 74.6 264 73.6" stroke-width="1.4" opacity="0.6"/>
+  <!-- smoke -->
+  <path class="i" d="M 242 54 C 238 48 246 44 242 36 C 239.6 31 243 27 245 24" stroke-width="1.4" opacity="0.35"/>
+  <path class="i" d="M 252 58 C 248 51 256 47 252 40" stroke-width="1.2" opacity="0.22"/>
+</svg>
