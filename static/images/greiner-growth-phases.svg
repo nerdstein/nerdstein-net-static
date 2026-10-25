@@ -1,0 +1,53 @@
+<svg viewBox="0 0 300 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A hand-drawn growth chart after Larry Greiner: an organization climbs through calm stretches of steady growth, each one ending in a short, jagged crisis before the next stretch begins">
+  <style>
+    svg { --ink: #1a1a1a; --accent: #c85a00; }
+    @media (prefers-color-scheme: dark) { svg { --ink: #e8e4dc; --accent: #f07830; } }
+    path, circle { stroke-linecap: round; stroke-linejoin: round; }
+    .i { stroke: var(--ink); }
+    .a { stroke: var(--accent); }
+  </style>
+  <!-- axes: age across, size up -->
+  <path class="i" d="M 28 164.3 C 28.2 151.9 28.8 114.8 28.9 89.8 C 28.9 64.8 28.4 26.8 28.3 14.2" stroke-width="1.6" opacity="0.7"/>
+  <path class="i" d="M 28.7 164.4 C 28.7 152 29.1 115.1 29.1 90.1 C 29.2 65 29 27 29 14.4" stroke-width="0.9" opacity="0.28"/>
+  <path class="i" d="M 24 19.8 C 24.7 18.8 27 13.3 28.3 13.4 C 29.7 13.6 31.3 19.3 31.9 20.5" stroke-width="1.4" opacity="0.7"/>
+  <path class="i" d="M 27.6 164.3 C 49.7 164.3 116.6 164.1 160.4 164.1 C 204.1 164 268.6 164.1 290.2 164.1" stroke-width="1.6" opacity="0.7"/>
+  <path class="i" d="M 28.4 164.5 C 50.5 164.5 117.2 164.6 160.9 164.6 C 204.7 164.6 269.2 164.3 290.8 164.3" stroke-width="0.9" opacity="0.28"/>
+  <path class="i" d="M 282.6 160.4 C 283.8 161.1 290 163.2 290 164.5 C 290 165.8 283.9 167.7 282.6 168.3" stroke-width="1.4" opacity="0.7"/>
+  <!-- phase 1: steady growth -->
+  <path class="i" d="M 36.3 150.4 C 38.2 150 43.3 149 47.5 147.9 C 51.7 146.8 57.5 145.2 61.6 143.8 C 65.6 142.3 70.1 140.2 71.9 139.5" stroke-width="2.2"/>
+  <path class="i" d="M 36.8 150.9 C 38.7 150.4 44.1 149.1 48.3 148 C 52.5 147 58.1 145.7 62.1 144.4 C 66.2 143 70.7 140.5 72.4 139.7" stroke-width="1.0" opacity="0.28"/>
+  <!-- crisis 1 -->
+  <path class="a" d="M 71.8 139.2 L 73.8 130.1 L 76.5 140 L 78.2 126.1 L 81.3 134.9 L 82.9 123.3 L 84.6 125.8" stroke-width="1.9"/>
+  <path class="a" d="M 72.1 139.7 L 74.2 130.4 L 77 140.4 L 78.9 126.3 L 81.6 135.5 L 83.7 123.3 L 85.1 126.3" stroke-width="0.9" opacity="0.28"/>
+  <path class="i" d="M 77.9 117.2 C 78 125 78.6 156.3 78.8 164.1" stroke-width="0.9" opacity="0.18" stroke-dasharray="2 4"/>
+  <!-- phase 2: steady growth -->
+  <path class="i" d="M 84.4 125.7 C 86.4 125.4 92 124.7 96.3 123.7 C 100.5 122.6 106 120.6 110.1 119.2 C 114.2 117.8 119.1 115.7 120.8 115" stroke-width="2.2"/>
+  <path class="i" d="M 85.1 126.3 C 87.1 125.8 92.7 124.9 97 123.7 C 101.3 122.5 106.8 120.7 110.9 119.3 C 115 117.9 119.8 116.2 121.6 115.6" stroke-width="1.0" opacity="0.28"/>
+  <!-- crisis 2 -->
+  <path class="a" d="M 120.6 114.9 L 122.2 105.7 L 125.1 115.8 L 127 101.8 L 129.3 110.9 L 131.7 99 L 132.9 102" stroke-width="1.9"/>
+  <path class="a" d="M 121.2 115.3 L 122.7 106.3 L 125.8 116 L 127.5 102 L 129.7 110.9 L 132.4 99.4 L 133.4 102.6" stroke-width="0.9" opacity="0.28"/>
+  <path class="i" d="M 126.3 93.1 C 126.5 104.9 127.1 152.2 127.2 164.1" stroke-width="0.9" opacity="0.18" stroke-dasharray="2 4"/>
+  <!-- phase 3: steady growth -->
+  <path class="i" d="M 133.1 101.9 C 135.2 101.6 141.2 101.3 145.5 100.3 C 149.8 99.2 154.9 96.9 158.8 95.4 C 162.7 93.8 167.4 91.7 169.1 91" stroke-width="2.2"/>
+  <path class="i" d="M 133.7 102 C 135.7 101.8 141.8 101.8 146.1 100.7 C 150.4 99.6 155.6 97.2 159.5 95.7 C 163.4 94.1 167.9 92.1 169.6 91.4" stroke-width="1.0" opacity="0.28"/>
+  <!-- crisis 3 -->
+  <path class="a" d="M 169 91 L 170.7 81.8 L 173.8 92.2 L 175.5 78.2 L 177.8 86.8 L 180 75.1 L 181.2 78" stroke-width="1.9"/>
+  <path class="a" d="M 169.8 91.4 L 171.5 81.9 L 174.6 92.8 L 175.7 78.5 L 178.5 87 L 180.7 75.7 L 181.9 78.3" stroke-width="0.9" opacity="0.28"/>
+  <path class="i" d="M 174.6 69 C 174.6 84.9 174.9 148.2 175 164" stroke-width="0.9" opacity="0.18" stroke-dasharray="2 4"/>
+  <!-- phase 4: steady growth -->
+  <path class="i" d="M 181.3 77.8 C 183.3 77.6 189.1 77.4 193.5 76.3 C 198 75.2 204.1 72.9 208 71.4 C 211.9 69.9 215.5 67.9 217 67.3" stroke-width="2.2"/>
+  <path class="i" d="M 181.7 78.3 C 183.8 78 189.8 77.5 194.3 76.4 C 198.8 75.2 204.8 73.1 208.7 71.6 C 212.5 70.1 216 68.2 217.5 67.5" stroke-width="1.0" opacity="0.28"/>
+  <!-- crisis 4 -->
+  <path class="a" d="M 217.5 66.8 L 219.5 57.8 L 221.7 67.8 L 224.1 53.9 L 226.3 62.9 L 228.3 51.3 L 230.2 53.8" stroke-width="1.9"/>
+  <path class="a" d="M 218 67.1 L 220.1 58.1 L 222.3 68.3 L 224.5 54.2 L 226.6 63.3 L 228.7 51.9 L 231 54.4" stroke-width="0.9" opacity="0.28"/>
+  <path class="i" d="M 223.4 45.1 C 223.4 65 223.5 144.4 223.5 164.2" stroke-width="0.9" opacity="0.18" stroke-dasharray="2 4"/>
+  <!-- phase 5: steady growth -->
+  <path class="i" d="M 230.3 53.9 C 232.2 53.6 237.5 53.3 241.8 52.3 C 246.2 51.2 252.3 49.4 256.3 47.8 C 260.2 46.2 264.2 43.6 265.8 42.7" stroke-width="2.2"/>
+  <path class="i" d="M 230.7 54.1 C 232.6 53.8 237.7 53.4 242.1 52.4 C 246.4 51.4 252.7 49.6 256.8 48.1 C 260.9 46.5 264.9 43.8 266.6 43" stroke-width="1.0" opacity="0.28"/>
+  <!-- crisis 5 -->
+  <path class="a" d="M 265.8 43.3 L 267.7 33.9 L 270.7 43.9 L 272.8 30.2 L 274.9 39.3 L 277.3 27 L 278.3 29.7" stroke-width="1.9"/>
+  <path class="a" d="M 266.5 43.9 L 268.3 34.4 L 271.4 44 L 273.2 30.7 L 275.6 39.5 L 277.7 27.1 L 278.7 30.3" stroke-width="0.9" opacity="0.28"/>
+  <path class="i" d="M 271.7 20.8 C 271.7 44.7 271.8 140.2 271.8 164.1" stroke-width="0.9" opacity="0.18" stroke-dasharray="2 4"/>
+  <!-- and on it goes -->
+  <path class="i" d="M 278.1 30.2 C 279.8 29.6 285.1 28.2 288.5 26.9 C 291.9 25.7 296.6 23.5 298.3 22.8" stroke-width="1.6" opacity="0.5" stroke-dasharray="3 4"/>
+</svg>
